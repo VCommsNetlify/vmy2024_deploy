@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>V-Malaysia 2024</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	
+	<!--------------- INTERNAL RESOURCES ----------------->
+	<link rel="stylesheet" href="microsite ver1.css">
+</head>
+<body>
+	
+	<!--------------------------------------------- 
+		NAVIGATION BAR 
+	---------------------------------------------->
+	<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-v-logo" href="https://the-v.net/home"><img src="Assets/1. Featured Section/V-Logo.png" alt="V-Logo" border="0"/></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#" class="translate" data-key="home">Home</a></li> 
+                <li><a href="#merch-section" class="translate" data-key="merch">Merchandise</a></li>
+                <li><a href="#events-socials" class="translate" data-key="events">Events News and Updates</a></li>
+                <li><a href="#gallery-sec" class="translate" data-key="gallery">Gallery</a></li>
+                <li><a href="#socials-sec" class="translate" data-key="stories">Stories</a></li>
+                <li><a href="#playlist-sec" class="translate" data-key="playlist">Unstoppable Playlist</a></li>
+                <li><a href="#history-sec" class="translate" data-key="history">V-Convention History</a></li>
+                <li><a href="#faqs-sec" class="translate" data-key="faqs">FAQs</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle translate" data-key="language" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+						<li><a href="#" data-lang="en">English</a></li>
+						<li><a href="#" data-lang="bi">tiếng Việt</a></li>
+                        <li><a href="#" data-lang="bi">Bahasa Indonesia</a></li>
+						<!--<li><a href="#" data-lang="ar">العربية</a></li>-->
+                        <!--<li><a href="#" data-lang="fr">Français</a></li>-->
+                        <!--<li><a href="#" data-lang="ru">Русский</a></li>-->
+                        <!--<li><a href="#" data-lang="tr">Türkçe</a></li>-->
+                        <!--<li><a href="#" data-lang="si">සිංහල</a></li>-->
+                        <!--<li><a href="#" data-lang="ta">தமிழ்</a></li>-->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+	
+	<!--------------------------------------------- 
+		FLOATER 
+	---------------------------------------------->
+		<div class="floater-icon">
+    		<a href="https://vshoppe.vtube.net/"><img src="Assets/1. Featured Section/Floater.png" alt="floater"></a>
+		</div>
+	
+   <!--------------------------------------------- 
+		FEATURED SECTION 
+	---------------------------------------------->
+    <section class="col-12 container-fluid featured-section">
+		
+		<!------------ ASSETS ----------------->
+		<div class="featured-section-assets">
+		<div id="assets-feature-1" class="feature-left-assets">
+				<img class="mountain-left" src="Assets/1. Featured Section/Featured Section Assets/Mountain Element - Left.png" alt="mountain-1">
+				<img class="cloud-left" src="Assets/1. Featured Section/Featured Section Assets/Blue cloud 3.png" alt="cloud-left">
+				<img class="border-left" src="Assets/1. Featured Section/Featured Section Assets/Blue Border - Left.png" alt="blue-border-1">
+		</div>
+		<div id="assets-feature-2" class="feature-right-assets">
+				<img class="mountain-right" src="Assets/1. Featured Section/Featured Section Assets/Mountain Element - Right.png" alt="mountain-2">
+				<img class="cloud-right" src="Assets/1. Featured Section/Featured Section Assets/Blue cloud 1.png" alt="cloud-right-1">
+				<img class="cloud-right-2" src="Assets/1. Featured Section/Featured Section Assets/Blue cloud 2.png" alt="cloud-right-2">
+				<img class="border-right" src="Assets/1. Featured Section/Featured Section Assets/Blue Border - Right.png" alt="blue-border-2">
+		</div>	
+		
+		<!------------ CONTENTS ---------------->
+        <div id="#feature" class="featured-page">
+			<div class="container justify-content-center">
+        		<div class="row align-items-center feature-content">
+            		<div class="col-xs-12 col-sm-6 col-md-6  d-flex justify-content-center align-items-center key-visual">
+                		<div class="unstoppable-kv">
+                   	 		<img src="Assets/1. Featured Section/Unstoppable-VMalaysia2024.gif" title="KV" alt="unstoppable-logo">
+                		</div>
+            		</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 d-flex justify-content-center align-items-center feature-content">
+						<div class="row feature-details-countdown">
+							<div class="col-12 countdown-div">
+            					<div id="countdown" class="countdown">
+									<div class="countdown-item">
+										<span id="days" class="number"></span>
+										<span class="timer translate" data-key="days">DAYS</span>
+									</div>
+									<div class="countdown-item">
+										<span id="hours" class="number"></span>
+										<span class="timer translate" data-key="hours">HOURS</span>
+									</div>
+									<div class="countdown-item">
+										<span id="minutes" class="number"></span>
+										<span class="timer" data-key="minutes">MINUTES</span>
+									</div>
+									<div class="countdown-item">
+									<span id="seconds" class="number"></span>
+									<span class="timer" data-key="seconds">SECONDS</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 featured-details-div">
+								<div id="details-featured-section" class="featured-details">
+									<h1 class="feature-title translate" data-key="feature-title"><strong>RISE AGAIN AND <br>BE UNSTOPPABLE</strong></h1>
+									<p class="featured-description translate" data-key="featured-description">This year&apos;s theme for V-MALAYSIA 2024 speaks of our commitment to change lives and make YOU unstoppable. Come home this May and experience V-Convention like never before.</p>
+									<button class="feature-button translate" data-key="feature-button"><a href="https://vshoppe.vtube.net/Buy">GET YOUR TICKETS HERE</a></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+    </section>
+	
+	
+	
+	
+	<!--------------------------------------------- 
+		MERCH SECTION 
+	---------------------------------------------->
+	<section id="merch-section" class="merch-section">
+    <div class="merch-container">
+        <div class="row">
+            <div class="col-12 justify-content-center merch-accordion">
+                <h1 class="translate" data-key="merch-title">YOUR UNSTOPPABLE STYLE</h1>
+                <p class="translate" data-key="merch-description">Be unstoppable with style. Try on our exclusive merchandise available at the Limitless Store this May and save your favourites!</p>
+            </div>
+        </div>
+        <div class="row merch-assets">
+            <div class="col-md-6 col-sm-6">
+                <div class="col-12 justify-content-center merch-video ">
+                    <div class="video">
+                        <img src="Assets/2. Instagram and Catalogue Section/Merch/Demo-Hat.gif" alt="demo-photo">
+                        <div>
+                            <button class="merch-button"><a href="#" class="translate" data-key="merch-button">TRY OUR MERCHANDISE!</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+				<div class="col-12 justify-content-center merch-catalogue">
+					<div class="catalogue">
+						<img src="Assets/2. Instagram and Catalogue Section/Merch/Caps Images/Cap 1.jpg" alt="Cap-1">
+						<div id="merch-gallery" class="hidden">
+							<div class="row justify-content-center m-gal-title">
+								<h1 class="translate" data-key="catalogue">CATALOGUE</h1>
+							</div>
+							<div class="row product-row">
+								<div class="col-md-12 col-xs-12 products">
+									<div class="row">
+										<h3 class="translate" data-key="hats">Hats</h3>
+									</div>
+									<div class="row product-list">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Caps Images/2024-Limitless-Black-Cap.jpg" alt="Cap 1">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Caps Images/2024-Limitless-Red-Snapback-Cap.jpg" alt="Cap 2">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Caps Images/2024-Rise-Again-Black-Cap.jpg" alt="Cap 3">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Caps Images/2024-Rise-Again-Red-Cap.jpg" alt="Cap 4">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Caps Images/2024-Rise-Again-Blue-Cap.jpg" alt="Cap 5">
+									</div>
+								</div>
+							</div>
+							<div class="row product-row">
+								<div class="col-md-12 col-xs-12 products">
+									<div class="row">
+										<h3 class="translate" data-key="shirts">Shirts</h3>
+									</div>
+									<div class="row product-list">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Limitless-Acid-Wash-TShirt.jpg" alt="Shirt 1">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Limitless-Graffiti-Shirt.jpg" alt="Shirt 2">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Limitless-Tiger-Embroidered-Shirt.jpg" alt="Shirt 3">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Limitless-Hologram-Jersey.jpg" alt="Shirt 4">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Rise-Again-Shirt-Black.jpg" alt="Shirt 5">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Rise-Again-Shirt-Pink.jpg" alt="Shirt 6">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Rise-Again-Shirt-White.jpg" alt="Shirt 7">
+									</div>
+								</div>
+							</div>
+							<div class="row product-row">
+								<div class="col-md-12 col-xs-12 products">
+									<div class="row">
+										<h3 class="translate" data-key="jacket-sshirts">Jackets and Sweatshirts</h3>
+									</div>
+									<div class="row product-list">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Limitless-Bomber-Jacket.jpg" alt="Jacket 1">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Varsity-Jacket.jpg" alt="Jacket 2">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Varsity-Jacket-Brown.jpg" alt="Jacket 3">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Clothes/2024-Limitless-Sweatshirt.jpg" alt="Sweatshirt 1">
+									</div>
+								</div>
+							</div>
+							<div class="row product-row">
+								<div class="col-md-12 col-xs-12 products">
+									<div class="row">
+										<h3 class="translate" data-key="bags">Bags</h3>
+									</div>
+									<div class="row product-list">
+										<img src="Assets/2. Instagram and Catalogue Section/Merch/Bags/2024-Limitless-Sling-Bag.jpg" alt="Bag 1">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+    			<button id="view-catalogue-button" class="catalogue-button translate" data-key="catalogue-button">VIEW CATALOGUE</button>
+			</div>
+		</div>
+	</div>		
+</section>
+	
+	
+	
+	<section id="events-socials" class="events-social-section">
+	<!--------------------------------------------- 
+		EVENTS NEWS AND UPDATE SECTION 
+	---------------------------------------------->		
+		<div class="events-socials-container">
+			<div class="row col-12 news-title">
+				<h1 id="news-sec" class="events-news-title translate" data-key="events-title">EVENTS NEWS AND UPDATES</h1>
+			</div>
+			
+			<section id="news-section" class="news-section">
+				<div class="row col-12 news">
+					<!----------------------------------------
+						UPDATE MAIN NEWS CONTENT HERE  (href = link to the article, src = image source)
+					----------------------------------------->
+					<div class="col-md-7 news-main-feature">
+						<a href="https://the-v.net/en/news?id=04122024-vmalaysia2024-mission-unstoppable-vp-donna-imson-lecaroz"><img src="Assets/3. Events, Gallery and Socials/3. News/04122024-vmalaysia2024-mission-unstoppable-vp-donna-imson-lecaroz924fcf8f-6ce5-47c4-b821-611cb7f1a564.png" alt="image"></a>
+							<h4 class="translate" data-key="main-news">#VMalaysia2024 Mission Unstoppable: VP Donna Imson-Lecaroz</h4>
+							<p class="translate" data-key="main-news-sub">Check out this full article! <a href="https://the-v.net/en/news?id=04122024-vmalaysia2024-mission-unstoppable-vp-donna-imson-lecaroz" class="translate" data-key="read-more">Read more!</a></p>
+					</div>
+				<div class="col-md-4">
+					<div class="news-features">
+					<!----------------------------------------
+						UPDATE OTHER NEWS CONTENT HERE (href = link to the article, src = image source)
+					----------------------------------------->
+						
+						<div class="news-feature-1">
+							<a href="https://the-v.net/en/news?id=04122024-vmalaysia2024-mission-unstoppable-vp-sachin-gupta"><img src="Assets/3. Events, Gallery and Socials/3. News/04122024-vmalaysia2024-mission-unstoppable-vp-sachin-gupta5005745c-f83e-4540-a900-adff4fdfc17a.png" alt="image"></a>
+							<p class="translate" data-key="news-1-sub">#VMalaysia2024 Mission Unstoppable: VP Sachin Gupta</p>
+						</div>
+						<div class="news-feature-2">
+							<a href="https://the-v.net/en/news?id=04112024-vmalaysia2024-mission-unstoppable-vp-ranjit-singh"><img src="Assets/3. Events, Gallery and Socials/3. News/04112024-vmalaysia2024-mission-unstoppable-vp-ranjit-singh67aa8380-f32d-4dfa-8438-564815e31383.png" alt="image"></a>
+							<p class="translate" data-key="news-2-sub">#VMalaysia2024 Mission Unstoppable: VP Ranjit Singh</p>
+						</div>
+						<div class="news-feature-3">
+							<a href="https://the-v.net/en/news?id=04112024-join-v-kids-and-v-teens-at-vmalaysia2024"><img src="Assets/3. Events, Gallery and Socials/3. News/04112024-join-v-kids-and-v-teens-at-vmalaysia2024-1d65ef0a8-e856-42c6-a305-1641297b571d.jpg" alt="image"></a>
+							<p class="translate" data-key="news-3-sub">Join V-Kids and V-Teens at #VMalaysia2024!</p>
+						</div>
+						<div class="news-feature-4">
+							<a href="https://the-v.net/en/news?id=04052024-vmalaysia2024-mission-unstoppable-vp-tg-kintanar"><img src="Assets/3. Events, Gallery and Socials/3. News/04052024-vmalaysia2024-mission-unstoppable-vp-tg-kintanara52b419a-507b-420b-8a5f-891f3a9afff1.png" alt="image"></a>
+							<p class="translate" data-key="news-4-sub">#VMalaysia2024 Mission Unstoppable: VP TG Kintanar</p>
+						</div>
+						<div class="news-feature-5">
+							<a href="https://the-v.net/en/news?id=04052024-vmalaysia2024-mission-unstoppable-vp-sathi-senathirajah"><img src="Assets/3. Events, Gallery and Socials/3. News/04052024-vmalaysia2024-mission-unstoppable-vp-sathi-senathirajahd9d50304-15b4-4c74-b68d-0e962e888083.png" alt="image"></a>
+							<p class="translate" data-key="news-5-sub">#VMalaysia2024 Mission Unstoppable: VP Sathi Senathirajah</p>
+						</div>
+						<div class="news-feature-6">
+							<a href="https://the-v.net/en/news?id=04012024-vmalaysia2024-rise-towards-your-unstoppable-greatness-1"><img src="Assets/3. Events, Gallery and Socials/3. News/04012024-vmalaysia2024-rise-towards-your-unstoppable-greatness-171202828-1535-4f84-a75a-69e920c4687d.gif" alt="image"></a>
+							<p class="translate" data-key="news-6-sub">#VMalaysia2024: Rise Towards Your Unstoppable Greatness</p>
+						</div>
+						<div class="news-feature-7">
+							<a href="https://the-v.net/en/news?id=03302024-vmalaysia2024-mission-unstoppable-vp-dev-johl"><img src="Assets/3. Events, Gallery and Socials/3. News/03302024-vmalaysia2024-mission-unstoppable-vp-dev-johl.png" alt="image"></a>
+							<p class="translate" data-key="news-7-sub">#VMalaysia2024 Mission Unstoppable: VP Dev Johl</p>
+						</div>
+						<div class="news-feature-8">
+							<a href="https://the-v.net/en/news?id=03262024-vmalaysia2024-mission-unstoppable-vp-david-sharma"><img src="Assets/3. Events, Gallery and Socials/3. News/03262024-vmalaysia2024-mission-unstoppable-vp-david-sharma.png" alt="image"></a>
+							<p class="translate" data-key="news-8-sub">#VMalaysia2024 Mission Unstoppable: VP David Sharma</p>
+						</div>
+						<div class="news-feature-9">
+							<a href="https://the-v.net/en/news?id=03252024-coming-soon-mission-unstoppable"><img src="Assets/3. Events, Gallery and Socials/3. News/03252024-coming-soon-mission-unstoppable.png" alt="image"></a>
+							<p class="translate" data-key="news-9-sub">Coming Soon! Mission: UNSTOPPABLE</p>
+						</div>
+						<div class="news-feature-10">
+							<a href="https://the-v.net/en/news?id=02292024-the-application-for-inservice-at-v-malaysia-2024-is-now-open"><img src="Assets/3. Events, Gallery and Socials/3. News/02292024-the-application-for-inservice-at-v-malaysia-2024-is-now-open.png" alt="image"></a>
+							<p class="translate" data-key="news-10-sub">The Application for InService at V-Malaysia 2024 is now open!</p>
+						</div>
+						<div class="news-feature-11">
+							<a href="https://the-v.net/en/news?id=02212024-vmalaysia2024-make-your-decision-to-be-unstoppable"><img src="Assets/3. Events, Gallery and Socials/3. News/02212024-vmalaysia2024-make-your-decision-to-be-unstoppable8bbe20c95cf54d06a2bea427da47dbe7.gif" alt="image"></a>
+							<p class="translate" data-key="news-11-sub">#VMalaysia 2024: Make your decision to be Unstoppable</p>
+						</div>
+						<div class="news-feature-12">
+							<a href="https://the-v.net/en/news?id=01052023-rise-and-be-unstoppable-at-v-malaysia-2024"><img src="Assets/3. Events, Gallery and Socials/3. News/01052023-rise-and-be-unstoppable-at-v-malaysia-2024.png" alt="image"></a>
+							<p class="translate" data-key="news-12-sub">RISE AND BE UNSTOPPABLE AT V-MALAYSIA 2024!</p>
+						</div>
+					</div>
+					<div class="row selector">
+    					<div class="col-xs-12 col-sm-auto">
+						<div class="btn-group flex text-lg">
+							<button class="btn btn-default mx-1" onclick="prevPage()">← PREV</button>
+							<button class="btn btn-default mx-1" onclick="goToPage(1)">1</button>
+							<button class="btn btn-default mx-1" onclick="goToPage(2)">2</button>
+							<button class="btn btn-default mx-1" onclick="goToPage(3)">3</button>
+							<button class="btn btn-default mx-1" onclick="goToPage(3)">4</button>
+							<button class="btn btn-default mx-1" onclick="nextPage()">NEXT →</button>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+				
+
+	
+			
+			
+	<!--------------------------------------------- 
+		GALLERY SECTION 
+	---------------------------------------------->
+	<div id="gallery-sec" class="anchor"></div>
+	<section id="gallery-section" class="gallery">
+		<div class="row">
+			<div class="col-12 gallery-section-title">
+				<h1 class="translate" data-key="gallery-title">OUR UNSTOPPABLE MOMENTS IN PICTURES</h1>
+			</div>
+		</div>
+		<div class="row galleries">
+		<div class="col-lg-8 col-md-8 col-sm-8">
+			<div class="col-lg-4 col-md-4 col-sm-4 photo-album">
+				<a href="https://the-v.net/en/album/vmalaysia2023-17-21-september-day-1-gallery"><img src="Assets/3. Events, Gallery and Socials/2. Gallery Image/Image-15.jpg" alt="Photo 1"></a>	
+				<div class="caption-img">V-Malaysia 2023 - Sep 17-23 - Day 1</div>
+			</div>		
+    		<div class="col-lg-2 col-md-2 col-sm-2 photo-album">
+				<a href="https://the-v.net/en/album/vmalaysia2023-8-12-september-day-4-gallery"><img src="Assets/3. Events, Gallery and Socials/2. Gallery Image/Image-12.jpg" alt="Photo 2"></a>
+				<div class="caption-img">VMalaysia 2023 - Sep 8-12 - Day 4</div>
+    		</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 photo-album">
+				<a href="https://the-v.net/en/album/vmalaysia2023-17-21-september-day-5-gallery"><img src="Assets/3. Events, Gallery and Socials/2. Gallery Image/Image-5.jpg" alt="Photo 2"></a>
+				<div class="caption-img">VMalaysia 2023 - Sep 17-21 - Day 5</div>
+			</div>
+		</div>
+		<div class="col-lg-8 col-md-8 col-sm-8">
+			<div class="col-lg-2 col-md-2 col-sm-2 photo-album">
+				<a href="https://the-v.net/en/album/vmalaysia2023-8-12-september-day-3-gallery"><img src="Assets/3. Events, Gallery and Socials/2. Gallery Image/Image-13.jpg" alt="Photo 2"></a>
+				<div class="caption-img">VMalaysia 2023 - Sep 8-12 - Day 3</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 photo-album">
+				<a href="https://the-v.net/en/album/vmalaysia2023-17-21-september-day-3-gallery"><img src="Assets/3. Events, Gallery and Socials/2. Gallery Image/Image-14.jpg" alt="Photo 2"></a>
+				<div class="caption-img">VMalaysia 2023 - Sep 17-21 - Day 3</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 photo-album">
+				<a href="https://the-v.net/en/album/vmalaysia2023-8-12-september-day-2-gallery"><img src="Assets/3. Events, Gallery and Socials/2. Gallery Image/Image-4.jpg" alt="Photo 2"></a>
+				<div class="caption-img">VMalaysia 2023 - Sep 8-12 - Day 2</div>
+			</div>
+		</div>
+		<div class="col-lg-8 col-md-8 col-sm-8">
+			<div class="col-lg-4 col-md-4 col-sm-4 photo-album">
+				<a href="https://the-v.net/en/album/vmalaysia2023-8-12-september-day-5-gallery"><img src="Assets/3. Events, Gallery and Socials/2. Gallery Image/Image-8.jpg" alt="Photo 2"></a>
+				<div class="caption-img">VMalaysia 2023 - Sep 8-12 - Day 5</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 photo-album">
+				<a href="https://the-v.net/en/album/vmalaysia2023-17-21-september-day-1-gallery"><img src="Assets/3. Events, Gallery and Socials/2. Gallery Image/Image-9.jpg" alt="Photo 2"></a>
+				<div class="caption-img">V-Malaysia 2023 - Sep 17-21 - Day 1</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 photo-album">
+				<a href="https://the-v.net/en/album/vmalaysia2023-8-12-september-registration-day"><img src="Assets/3. Events, Gallery and Socials/2. Gallery Image/Image-7.jpg" alt="Photo 2"></a>
+				<div class="caption-img">VMalaysia 2023 - Sep 8-12 - Reg Day</div>
+			</div>
+		</div>
+		</div>
+			<div class="row col-12 view-gallery">
+			<p><a href="https://the-v.net/en/galleries" id="view-gallery-link" class="translate" data-key="gallery-view-more">VIEW MORE GALLERY</a></p>
+			</div>
+		</section>
+
+			
+	
+	
+	<!--------------------------------------------- 
+		SOCIALS SECTION 
+	---------------------------------------------->
+	<div id="socials-sec" class="anchor"></div>		
+		<section id="socials-section" class="socials">
+		<div class=" row col-12 socials-text">
+			<h1 class="socials-title translate" data-key="socials-title">SHARE YOUR UNSTOPPABLE STORIES</h1>
+			<p class="socials-description translate" data-key="socials-description">How do you aim to be unstoppable? <br>Post your photos and videos with #VMalaysia2024 and share your story in the caption!
+ 			<br><br>Who knows? Your story might be featured on our upcoming series!</p>
+			<div class="socials-icons">
+				<a href="https://www.facebook.com/thevofficial"><i class="fa-brands fa-facebook"></i></a>
+				<a href="https://twitter.com/thev_official"> <i class="fa-brands fa-x-twitter"></i></a>
+				<a href="https://instagram.com/thev_official"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+		</div>
+		<section class="row col-12 instagram-post">
+			
+				<div id="post-1" class="socials-embed">
+				<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C1waCckPQrG/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+					<div style="padding:16px;"> 
+						<a href="https://www.instagram.com/reel/C1waCckPQrG/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> 
+							<div style=" display: flex; flex-direction: row; align-items: center;"> 
+								<div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+								</div> 
+								<div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+									<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+									<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+								</div>
+							</div>
+							<div style="padding: 19% 0;"></div> 
+							<div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+								<svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+								<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<g transform="translate(-511.000000, -20.000000)" fill="#000000">
+										<g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path>
+										</g>
+									</g>
+								</g>
+								</svg>
+							</div>
+							<div style="padding-top: 8px;"> 
+								<div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div>
+							</div>
+							<div style="padding: 12.5% 0;"></div> 
+							<div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+								<div> 
+									<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+									<div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+									<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+								</div>
+								<div style="margin-left: 8px;"> 
+									<div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+									<div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+								</div>
+								<div style="margin-left: auto;"> 
+									<div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+									<div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+									<div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+								</div>
+							</div> 
+							<div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+								<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+								<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div>
+							</div>
+						</a>
+						<p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+							<a href="https://www.instagram.com/reel/C1waCckPQrG/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by The V (@thev_official)</a>
+						</p>
+					</div>
+				</blockquote> 
+				<script async src="//www.instagram.com/embed.js"></script>
+			</div>
+				<div id="post-2" class="socials-embed">
+				<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C48L8vqvvNy/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/C48L8vqvvNy/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/C48L8vqvvNy/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by The V (@thev_official)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+			</div>
+				<div id="post-3" class="socials-embed">
+				<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C4sKx97vCh1/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C4sKx97vCh1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C4sKx97vCh1/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by The V (@thev_official)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+			</div>
+			
+				<div id="post-4" class="socials-embed hidden-story">
+					<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C5TezWIvC3V/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/C5TezWIvC3V/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/C5TezWIvC3V/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by The V (@thev_official)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+				</div>
+				<div id="post-5" class="socials-embed hidden-story">
+					<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C5QsHbIvuBD/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/C5QsHbIvuBD/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/C5QsHbIvuBD/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by The V (@thev_official)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+				</div>
+				<div id="post-6" class="socials-embed hidden-story">
+					<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C5NBibxvl0J/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/C5NBibxvl0J/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/C5NBibxvl0J/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by The V (@thev_official)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+				</div>
+			
+		</section>
+			
+			<div class="row col-12 view-stories">
+			<button id="view-more-stories" class="translate" data-key="stories-view-more">VIEW MORE STORIES</button>
+			</div>
+		</section>
+	</div><!--Events-Social-Container-->
+		
+		<!------------- ASSETS --------------->
+		<div class="birds">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/Birds.png" alt="birds">
+		</div>
+		<div class="cloud-over-star">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/cloud over star.png" alt="cloud-over-star">
+		</div>
+		<div class="cloud-over-firework">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/cloud over firework.png" alt="cloud-over-firework">
+		</div>
+		<div class="yellow-firework">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/fireworks 5.png" alt="yellow-firework">
+		</div>
+		<div class="cloud-and-firework">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/cloud and fireworks.png" alt="cloud-and-firework">
+		</div>
+		<div class="cloud-1">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/cloud outline 5.png" alt="cloud">
+		</div>
+		<div class="cloud-2">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/cloud outline 4.png" alt="cloud">
+		</div>
+		<div class="cloud-3">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/cloud outline 6.png" alt="cloud">
+		</div>
+		<div class="cloud-and-star">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/cloud and star.png" alt="cloud-and-star">
+		</div>
+		<div class="fireworks">
+			<img src="Assets/3. Events, Gallery and Socials/1. Section Assets/fireworks 5.png" alt="fireworks">
+		</div>
+	
+	</section>
+	
+	
+	<!--------------------------------------------- 
+		PLAYLIST SECTION 
+	---------------------------------------------->
+	<div id="playlist-sec" class="anchor"></div>	
+	<section id="playlist-section" class="playlist-history">
+    <div class="row playlist-container">
+        <h1 class="playlist-title translate" data-key="playlist-title">YOUR UNSTOPPABLE PLAYLIST</h1>
+    </div>
+    <div class="row col-12 video-playlist">
+		<div class="playlist-page page-1 video-active">
+			<iframe src="https://drive.google.com/file/d/1yiQ7mjIBqFsDzcv4mE3A4e0lsGnkrdzu/preview" width="740" height="480"></iframe>
+        </div>
+		<div class="playlist-page page-2">
+			<iframe src="https://drive.google.com/file/d/1erbrckoEFuwqrCu3JEDHOlycyu4BmSzq/preview" width="740" height="480"></iframe>
+        </div>
+		<div class="playlist-page page-3">
+			<iframe src="https://drive.google.com/file/d/1o7xuvfHZTD3ytfqecWZ9FF06SSQsfBbL/preview" width="740" height="480"></iframe>
+        </div>
+		<div class="playlist-page page-4">
+			<iframe src="https://drive.google.com/file/d/1a3lLkh1vHWckdX7iaNm4cNOIwEAfGVoW/preview" width="740" height="480"></iframe>
+        </div>
+        <div class="playlist-page page-5">
+			<iframe src="https://drive.google.com/file/d/1s-k_MW21oz1tMf9QbCtQo87W0IuYZkum/preview" width="740" height="480" allow="autoplay"></iframe>
+        </div>
+		<div class="playlist-page page-6">
+			<iframe src="https://drive.google.com/file/d/1OHtH18Nuri8vw9395NLwXS4EKmgJnxoE/preview" width="740" height="480"></iframe>
+        </div>
+		<div class="playlist-page page-7">
+			<iframe src="https://drive.google.com/file/d/1efxRN5t1G1Rb8ayYFJzXGq0vLq8Tbtz2/preview" width="740" height="480"></iframe>
+        </div>
+		<div class="playlist-page page-8">
+			<iframe src="https://drive.google.com/file/d/19BF-yJXbLW3B6LfGMb8j8Cs5EaqaP_fq/preview" width="740" height="480"></iframe>
+        </div>
+		<div class="playlist-page page-9">
+			<iframe src="https://drive.google.com/file/d/1yrDPx30IoGsSZCbyLXehbSnKAIpSm7OL/preview" width="740" height="480"></iframe>
+        </div>
+		<div class="playlist-page page-10">
+			<iframe src="https://drive.google.com/file/d/1b5y3LL7Twpg5MNX6-TWZz39H_9Wfn3Iw/preview" width="740" height="480"></iframe>
+        </div>
+    </div>
+    
+    <div class="row font-bold justify-content-center thumbnail-container">
+        <!-- Thumbnails will appear here -->
+    </div>
+			
+		
+	<div id="history-sec" class="anchor"></div>		
+	<!--------------------------------------------- 
+		HISTORY SECTION 
+	---------------------------------------------->		
+		<div id="history-section" class="history-menu">
+			<h1 class="history-title translate" data-key="history-title">OUR UNSTOPPABLE<br>V-CONVENTION HISTORY</h1>
+			<div class="row-no-gutters 2020">
+			<button class="menu-accordion translate" data-key="2020">2020's</button>
+				<div class="history-panel">
+					<button class="year-selection">2024</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2024-May-VMalaysia.jpg" alt="vcon-history">
+						</div>
+					<button class="year-selection">2023</button> 
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2023-Sept-VMalaysia.jpg" alt="vcon-history">
+						</div>
+					<button class="year-selection">2022</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2022-March-VConvention-Connect.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2022-Oct-VMalaysia.jpg" alt="vcon-history">
+						</div>
+					<button class="year-selection">2021</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2021-March-VConvention-Connect.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2021-Oct-VConvention-Connect.jpg" alt="vcon-history">
+						</div>
+					<button class="year-selection">2020</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2020-VConvention-Connect.jpg" alt="vcon-history">
+						</div>	
+				</div>
+			</div>	
+			<div class="row-no-gutters 2010">
+			<button class="menu-accordion translate" data-key="2010">2010's</button>
+				<div class="history-panel">
+					<button class="year-selection">2018 - 2019</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2019-April-VMlalaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2019-Sept-VMalaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2018-April-VMalaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2018-Sept-V-UAE.jpg" alt="vcon-history">
+						</div>
+					<button class="year-selection">2016 - 2017</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2017-May-VMalaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2017-Sept-V-UAE.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2016-May-V-Malaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2016-Sept-V-UAE.jpg" alt="vcon-history">
+						</div>
+					<button class="year-selection">2014 - 2015</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2015-May-VMalaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2015-Sept-V-UAE.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2014-May-VMalaysia.jpg" alt="vcon-history">
+					</div>
+					<button class="year-selection">2012 - 2013</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2013-May-VMalaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2012-V-Indonesia.jpg" alt="vcon-history">
+						</div>
+					<button class="year-selection">2010 - 2011</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2011-May-VMalaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2010-June-VMalaysia.jpg" alt="vcon-history">
+						</div>
+				</div>
+			</div>
+			<div class="row-no-gutters 2000">
+			<button class="menu-accordion translate" data-key="2000">2000's</button>
+				<div class="history-panel">
+					<button class="year-selection">2009</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2009-May-VMalaysia.jpg" alt="vcon-history">
+						</div>
+					<button class="year-selection">2007 - 2008</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2008-May-VMalaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2008-Nov-V-Africa.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2007-May-VJakarta.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2007-Nov-V-Africa.jpg" alt="vcon-history">
+						</div>	
+					<button class="year-selection">2005 - 2006</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2006-May-VMalaysia.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2006-Sept-VMadrid.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2005-VThailand.jpg" alt="vcon-history">
+						</div>	
+					<button class="year-selection">2003 - 2004</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2004-June-VCon-Greece.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2004-VCon-Dubai.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2003-April-VMalaysia.jpg" alt="vcon-history">
+						</div>
+					<button class="year-selection">2001 - 2002</button>
+						<div class="year-content">
+							<img src="Assets/4. Video and History Section/VCon History/2002-VCon-Goa.jpg" alt="vcon-history">
+							<img src="Assets/4. Video and History Section/VCon History/2001-VCon-Bali.jpg" alt="vcon-history">
+						</div>
+				</div>
+		</div>
+		</div>
+	</section>
+	
+	
+	<!--------------------------------------------- 
+		FAQS SECTION 
+	---------------------------------------------->
+<div id="faqs-sec" class="anchor"></div>
+	<section id="faqs-section" class="faqs">
+		<h1 class="faqs-title translate" data-key="faqs-title">FREQUENTLY ASKED QUESTIONS</h1>
+		<div class="faqs-menu">
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-1">V-Malaysia 2024 Tickets</span></button>
+			<div class="faqs-panel">
+			<ol>
+				<li class="translate" data-key="faqs-list-1-1">Go to <a href="https://vshoppe.vtube.net/">https://vshoppe.vtube.net/</a></li>
+				<li class="translate" data-key="faqs-list-1-2">Enter your email address and use the code: <strong class="translate" data-key="faqs-list-1-2-strong">VCON2024</strong></li>
+				<li class="translate" data-key="faqs-list-1-3">Fill out your information. <br>*The token is sent to your email address.</li>
+				<li class="translate" data-key="faqs-list-1-4">Click Proceed to Payment.</li>
+				<li class="translate" data-key="faqs-list-1-5">Input your credit card information and click Pay. Wait for it to process until the green check mark appears. <br>*If an authentication prompt pops up, please accomplish the steps required.</li>
+				<li class="translate" data-key="faqs-list-1-6">Your Payment Receipt will appear and a confirmation will be sent to your email address.</li>
+			</ol>
+			</div>
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-2">V-MALAYSIA 2024 Ticket Terms and Conditions</span></button>
+			<div class="faqs-panel">
+				<p class="translate" data-key="faqs-list-2-1">By purchasing the ticket, you (&quot;Ticket Holder&quot;) agree to be bound by the Terms and Conditions of sale specified herein and any other provision as may be specified from time to time by VShoppe (&quot;Promoter&quot;). The Promoter, their agents or employees, shall not be liable for any death, personal injury (unless caused by negligence of its agents and employees), loss, or damage however caused while in the venue nor are they liable for any complaints, claims, refunds, or exchange for any reason, including without limitation, cancellation or postponement of the event. Booking fees and handling fees shall not be refundable. Any refunds shall be made only at Promoter&apos;s discretion.</p>
+				<p class="translate" data-key="faqs-list-2-2">Tickets are sold subject to the following conditions:</p>
+				<ul>
+					<li class="translate" data-key="faqs-list-2-2-sub-1">Once sale is completed, no refunds will be made except pursuant to event postponement or cancellation and this is subjected to the Promoter&apos;s discretion. Lost ticket/s will not be replaced or refunded.</li>
+					<li class="translate" data-key="faqs-list-2-2-sub-2">Generally, tickets are non-transferable. However, if the purchase was made by mistake, believed to be done in good faith, the Promoter reserves the right for transfer. Ticket Holder may request to transfer it to the next party, subject to ticket availability. An additional administrative payment of USD 50 must be made by the Ticket Holder to initiate the transfer process. All transfer requests must be sent to <a href="mailto:">v-regn@the-v.net</a>.</li>
+					<li class="translate" data-key="faqs-list-2-2-sub-3">Entry will be refused if tickets have been found to be tampered, counterfeited, and/or not purchased from <a href="https://vshoppe.vtube.net/Buy"><strong>VShoppe</strong></a> or an official and authorized point of sale.</li>
+					<li class="translate" data-key="faqs-list-2-2-sub-4">The Promoter reserves the right, without refund or compensation, to refuse admission/evict any person(s) whose conduct is disorderly or inappropriate.</li>
+					<li class="translate" data-key="faqs-list-2-2-sub-5">The Promoter may add, withdraw, or substitute artistes and/or vary advertised programmes, event times, seating arrangements, audience capacity without prior notice.</li>
+					<li class="translate" data-key="faqs-list-2-2-sub-6">The Promoter may use the ticket holder’s image or likeness in any live or recorded video display, picture, publicity material or website.</li>
+					<li class="translate" data-key="faqs-list-2-2-sub-7">The Promoter may postpone, cancel, interrupt, or stop the event due to adverse weather, dangerous situations, or any other causes beyond reasonable control.</li>
+					<li class="translate" data-key="faqs-list-2-2-sub-8">The Ticket Holder agrees to submit to any searches for prohibited items including but not limited to weapons, controlled, dangerous and illegal substances.</li>
+					<li class="translate" data-key="faqs-list-2-2-sub-9">Ticket Holder agrees for their personal data to be used as Promoter deems necessary in the purchase of the ticket and subsequent processing for the event. These may include, but not limited to, sharing of your personal data to authorised third parties such as government agencies, financial institutions, and vendor suppliers for the said event.</li>
+					<li class="translate" data-key="faqs-list-2-2-sub-10">The Ticket Holder voluntarily assumes all risks and danger incidental to the event whether occurring prior to, during or subsequent to the actual event, including any death, personal injury, loss, damage, or liability. Malaysia law shall govern the sale of all tickets and you agree to submit to the exclusive jurisdiction of the Malaysia Court.</li>
+				</ul>	
+			</div>
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-3">What pre-departure requirements should we prepare?</span></button>
+			<div class="faqs-panel">
+				<ol>
+					<li class="translate" data-key="faqs-list-3-1">All participants are recommended to purchase travel insurance with Covid-19 coverage with sum insured co vered minimum USD10,000.</li>
+					<li class="translate" data-key="faqs-list-3-2">Participants coming from African countries are required to apply for Yellow Fever Vaccination Certificates at least fourteen (14) days in advance prior to departure to Malaysia.</li>
+					<li class="translate" data-key="faqs-list-3-3">If you require an invitation letter for your visa application, kindly fill up the form to submit your request: <a href="https://bit.ly/VMY2024InvitationLetterRequestForm">https://bit.ly/VMY2024InvitationLetterRequestForm</a></li>
+					<li class="translate" data-key="faqs-list-3-4">Provide your flight details, departure, and arrival to v-regn@the-v.net at least two (2) days prior to departure.</li>
+				</ol>
+			</div>
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-4">What are the travel Visa requirements?</span></button>
+			<div class="faqs-panel">
+				<ol>
+					<li class="translate" data-key="faqs-list-4-1">If you require to apply Malaysia Visa, please make sure your passport is VALID for at least 6 months from the date of travel.</li>
+					<li class="translate" data-key="faqs-list-4-2">Your passport must have a minimum of 3 blank pages.</li>
+					<li class="translate" data-key="faqs-list-4-3">Apply for a Social Visa indicating your attendance to a convention.</li>
+					<li class="translate" data-key="faqs-list-4-4">Return Flight Ticket: Return dates must be in accordance with the permitted visa validity (30 days).</li>
+					<li class="translate" data-key="faqs-list-4-5">Proof of funds: You should have at least USD 1500 cash on hand/bank account statement prepared upon your arrival.</li>
+					<li class="translate" data-key="faqs-list-4-6">All participants must have Penang hotel booking confirmation</li>
+				</ol>
+			</div>
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-5">What travel documents do I need to have on hand?</span></button>
+			<div class="faqs-panel">
+				<ol>
+					<li class="translate" data-key="faqs-list-5-1">A printed copy of your return flight ticket; Return dates must be in accordance with the permitted visa validity (30 days).</li>
+					<li class="translate" data-key="faqs-list-5-2">A printed copy of your hotel confirmation should be provided as proof of your accommodations in Penang throughout your stay in Malaysia;</li>
+					<li class="translate" data-key="faqs-list-5-3">A printed copy of the invitation and/or confirmation letter sent to your email upon registration; and</li> 
+					<li class="translate" data-key="faqs-list-5-4">A printed copy of Yellow Fever Vaccination Certificate proof for countries required by Malaysia Immigration Department for participant from African Countries.</li>
+					<li class="translate" data-key="faqs-list-5-5">Digital certificate: Please ensure all the necessary information in Malaysia Digital Arrival Card (MDAC) has been filled up within 3 days prior your departure: <br><a href="https://imigresen-online.imi.gov.my/mdac/main">https://imigresen-online.imi.gov.my/mdac/main</a></li>
+					<li class="translate" data-key="faqs-list-5-6">Participants who bring medications should only bring enough for the duration of their stay as per the prescription issued by their doctor.</li>
+					<li class="translate" data-key="faqs-list-5-7">Traveller must fill up the form to declare all dutiable and prohibited goods and monetary instruments. This form must be submitted at the Royal Malaysian Customs Department (RMCD) examination checkpoint.</li>
+				</ol>
+			</div>
+			
+			
+			
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-6">When is the Registration for V-MALAYSIA 2024 participants?</span></button>
+			<div class="faqs-panel">
+				<p class="translate" data-key="faqs-list-6-1">The V-MALAYSIA 2024 Registration will be on <strong>11 May 2024</strong>. We highly recommend that you arrive at least 1-2 days before the start of the event, so you have enough time to get settled in your hotel/accommodation.</p>
+			</div>
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-7">What is the registration process for V-MALAYSIA 2024 participants?</span></button>
+			<div class="faqs-panel">
+				<ol>
+					<li class="translate" data-key="faqs-list-7-1">You MUST be physically present at the registration and present a copy of the following saved to your mobile phone to claim your wristband:
+						<ol>
+							<li class="translate" data-key="faqs-list-7-1-sub-1">Passport</li>
+							<li class="translate" data-key="faqs-list-7-1-sub-2">V-Malaysia 2024 e-ticket with QR Code</li>
+						</ol>
+					</li>
+					<li class="translate" data-key="faqs-list-7-2">Collection of wristbands/tickets via representation is NOT ALLOWED.</li>
+					<li class="translate" data-key="faqs-list-7-3">There will be no issuance of a refund, a new ticket, or wristband once they have been deemed collected. You are required to purchase again in cases of loss or replacement.</li>
+				</ol>
+			</div>
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-8">What is the refund and transfer policy?</span></button>
+			<div class="faqs-panel">
+				<p class="translate" data-key="faqs-list-8-1">V-Malaysia 2024 tickets are strictly non-refundable and non-transferrable.</p>
+			</div>
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-9">What other essentials do I need to prepare for V-Malaysia 2024?</span></button>
+			<div class="faqs-panel">
+				<ol>
+					<li class="translate" data-key="faqs-list-9-1">Bring your own reusable water bottles, utensils, and bags. Single-use plastic is strictly prohibited within the premises of Setia SPICE Arena for V-Malaysia 2024.</li>
+					<li class="translate" data-key="faqs-list-9-2">Make sure you have enough to spend on food, drinks, transportation, V-Malaysia 2024 merchandise from the Limitless Store, souvenirs, etc. Make sure to have your money either in USD or RM.</li>
+					<li class="translate" data-key="faqs-list-9-3">Activate your debit card or local bank card for international transactions before traveling out of your country. AMEX cards are not accepted for purchases.</li>
+					<li class="translate" data-key="faqs-list-9-4">Pack clothes good for 7 days. Expect that the air-condition inside the arena would be extra cool so bring a jacket or shawl you can easily layer over your comfy clothes.</li>
+				</ol>
+			</div>
+			<button class="faqs-accordion"><span class="translate" data-key="faqs-10">How can I avail translation services during the event?</span></button>
+			<div class="faqs-panel">
+				<p class="translate" data-key="faqs-list-10-1">For those who will need translation services during the event, translation radio is available for sale during Registration Day on 11 May 2024.</p>
+			</div>
+			
+			<button id="viewMoreBtn" class="view-more"> VIEW MORE</button>
+		</div>
+	</section>
+	
+	
+	
+	<!--------------------------------------------- 
+		FOOTER SECTION 
+	---------------------------------------------->
+	<section class="footer-section">
+		<footer class="follow-us">
+			<div class="the-v-footer">
+			<div class="footer-logo">
+				<img src="Assets/1. Featured Section/VCON-Logo White.png" alt="v-logo">
+			</div>
+			<div class="footer-content">
+				<div class="text-footer">
+				<div class="v-malaysia">
+					<h4>V-Malaysia 2024</h4>
+					<p>All Rights Reserved 2024</p>
+				</div>
+				<div class="stay-connected">
+					<h4 class="translate" data-type="stay-connected">Stay Connected</h4>
+					<p class="translate" data-type="like-tag-share">Like.Tag.Share</p>
+				</div>
+				<div class="socials-icons-2">
+					<a href="https://www.facebook.com/thevofficial"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://twitter.com/thev_official"> <i class="fa-brands fa-x-twitter"></i></a>
+					<a href="https://instagram.com/thev_official"><i class="fa-brands fa-instagram"></i></a>
+				</div>
+				</div>
+			</div>
+			<div class="nav-footer">
+				<ul>
+					<li> <a href="#" class="translate" data-key="home">Home</a></li>
+					<li> <a href="#merch-sec" class="translate" data-key="merch">Merchandise</a></li>
+					<li> <a href="#news-sec" class="translate" data-key="events">Events News and Updates</a></li>
+					<li> <a href="#gallery-sec" class="translate" data-key="gallery">View Gallery</a></li>
+					<li> <a href="#socials-sec" class="translate" data-key="stories">Share Your Stories</a></li>
+					<li> <a href="#playlist-sec" class="translate" data-key="playlist">Unstoppable Playlist</a></li>
+					<li> <a href="#history-sec" class="translate" data-key="history">V-Convention History</a></li>
+					<li> <a href="#faqs-sec" class="translate" data-key="faqs">Frequently Asked Questions</a></li>
+				</ul>
+			</div>
+			</div>
+		</footer>
+	</section>
+	
+	
+	
+	<!----------- BOOTSTRAP JAVASCRIPT ------------>
+	<!--<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+	<!--------- CUSTOM JAVASCRIPT ---------->
+    <script src="microsite ver1.js"></script>
+	<!--------- FANCY BOX ----------->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+</html>
