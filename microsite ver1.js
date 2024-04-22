@@ -4,6 +4,7 @@
 
 //function to hide the menu when option is clicked
 $(document).ready(function() {
+    console.log("ready")
     $('.navbar-nav > li > a').not('[data-toggle="dropdown"]').click(function() {
         var $navbarCollapse = $('.navbar-collapse');
         $navbarCollapse.collapse('hide');
