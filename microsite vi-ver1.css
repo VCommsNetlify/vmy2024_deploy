@@ -222,9 +222,9 @@ p {
 
 
 .featured-section h1 {
-    font-size: 55px;
+    font-size: 36px;
     margin-bottom: 20px;
-	letter-spacing: 4px;
+		letter-spacing: 4px;
 }
 
 .container {
@@ -462,8 +462,8 @@ p {
 	.featured-section h1 {
 		display: flex;
 		justify-content: center;
-   		margin: 10px auto;
-		
+   	margin: 10px auto;
+		font-size: 22px;
 	}
 	
 	.featured-description {
@@ -564,7 +564,7 @@ p {
 	}
 	
 	.featured-details h1 {
-		font-size: 28px;
+		font-size: 22px;
 		align-content: center;
 	}
 	
@@ -607,7 +607,7 @@ p {
 
 .merch-container h1 {
 	margin-top: 50px;
-	font-size: 55px;
+	font-size: 36px;
 }
 
 .merch-container p {
@@ -664,7 +664,7 @@ p {
 @media screen and (max-width: 768px) and (max-width: 992px) {
 	
 	.merch-container h1 {
-		font-size: 28px;
+		font-size: 22px;
 	}
 	
 	.merch-container p {
@@ -706,7 +706,7 @@ p {
 ---------------------------------*/
 
 #merch-gallery {
-    background-image: url("Assets/1. Featured Section/Featured Section Assets/Blue-BG.png");
+  background-image: url("Assets/1. Featured Section/Featured Section Assets/Blue-BG.png");
 	background-repeat: no-repeat;
 	background-size: cover;	
 	max-height: 70vh;
@@ -1001,7 +1001,7 @@ section#gallery-section.gallery {
 
 
 .gallery-title {
-	font-size: 32px;
+	font-size: 36px;
 	text-align: center;
 }
 
@@ -1084,7 +1084,7 @@ section#gallery-section.gallery {
 
 .socials-title {
 	margin-top: 100px;
-	font-size: 32px;
+	font-size: 36px;
 }
 
 .socials-description {
@@ -1200,7 +1200,7 @@ section#gallery-section.gallery {
 	}
 	
 .events-news-title, .gallery-title, .socials-title {
-	font-size: 28px;
+	font-size: 22px;
 	display: flex;
 	justify-content: center;
 	margin-left: 30px;
@@ -1243,7 +1243,7 @@ section#gallery-section.gallery {
 	}	
 	
 .gallery-section-title h1 {
-	font-size: 28px;	
+	font-size: 22px;	
 	}
 	
 .galleries {
@@ -1353,7 +1353,7 @@ section#gallery-section.gallery {
 .playlist-title {
 	padding: 100px 0 50px;
 	text-shadow: 2px 2px 5px black;
-	font-size: 55px;
+	font-size: 36px;
 }
 
 
@@ -1388,7 +1388,7 @@ section#gallery-section.gallery {
 .history-title {
 	margin-bottom: 30px;
 	text-shadow: 2px 2px 5px black;
-	font-size: 55px;
+	font-size: 36px;
 }
 
 .history-menu {
@@ -1457,7 +1457,7 @@ section#gallery-section.gallery {
 	}
 	
 	.history-title, .playlist-title {
-		font-size: 36px;
+		font-size: 22px;
 	}
 	
 	.video-playlist iframe{
@@ -1505,7 +1505,7 @@ section#gallery-section.gallery {
 }
 
 .faqs-title {
-	font-size: 32px;
+	font-size: 36px;
 	text-align: center;
 	margin: 50px;
 }
@@ -1587,7 +1587,7 @@ section#gallery-section.gallery {
 @media screen and (max-width: 768px) {
 
 	.faqs-title {
-		font-size: 36px;
+		font-size: 22px;
 	}
 	
 	.faqs-accordion, .faqs-panel {
