@@ -1186,7 +1186,7 @@ section#gallery-section.gallery {
 	}
 	
 .events-news-title, .gallery-title, .socials-title {
-	font-size: 55px;
+	font-size: 36px;
 	display: flex;
 	justify-content: center;
 	margin-right: 30px;
@@ -1226,7 +1226,7 @@ section#gallery-section.gallery {
 	}	
 	
 .gallery-section-title h1 {
-	font-size: 55px;	
+	font-size: 36px;	
 	}
 	
 .galleries {
