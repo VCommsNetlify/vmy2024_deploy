@@ -998,6 +998,7 @@ section#gallery-section.gallery {
 .gallery-section-title {
 	max-width: 75vw;
 	justify-content: center;
+	text-align: center;
 }
 
 
