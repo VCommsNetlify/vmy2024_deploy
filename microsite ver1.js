@@ -320,7 +320,7 @@ function createThumbnails() {
     for (var h = 1; h <= totalPages; h++) {
         var thumbnail = document.createElement('img');
         if (h === 1) {
-            thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04222024-our-associate-v-partners-invite-you-to-v-malaysia-20245db576f0-672a-4dfe-a987-d09849d39ff3.png';c
+            thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04222024-our-associate-v-partners-invite-you-to-v-malaysia-20245db576f0-672a-4dfe-a987-d09849d39ff3.png';
 		} else if (h === 2) {
 			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04192024-vmalaysia2024-mission-unstoppable-vp-mahendra-kumar59b3cac6-4373-4f50-9fd7-8d9dec0bbfd3.png';
 		} else if (h === 3) {
