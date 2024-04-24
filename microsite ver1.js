@@ -324,7 +324,7 @@ function createThumbnails() {
 		} else if (h === 2) {
 			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04192024-vmalaysia2024-mission-unstoppable-vp-mahendra-kumar59b3cac6-4373-4f50-9fd7-8d9dec0bbfd3.png';
 		} else if (h === 3) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04192024-vmalaysia2024-mission-unstoppable-vp-kalai-manikamaa2ea855-781e-4369-9f30-767432c244fepng';
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04192024-vmalaysia2024-mission-unstoppable-vp-kalai-manikamaa2ea855-781e-4369-9f30-767432c244fe.png';
 		} else if (h === 4) {
 			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04172024-vmalaysia2024-mission-unstoppable-vp-v-padmac36ff2f3-42ff-4e70-9740-37445e5549ec.png';
 		} else if (h === 5) {
