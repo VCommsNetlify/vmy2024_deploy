@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "BebasNeue Regular";
 }
 
-@media screen and (max-width: 768px) and (max-width: 992px) {
+@media screen {
 	h1 {
 		font-size: 32px;
 	}
@@ -92,6 +92,7 @@ p {
 .navbar-nav {
 	float: right;
 	margin-right: 50px;
+	
 }
 
 .navbar-default .navbar-nav > .open > a:hover
@@ -234,8 +235,8 @@ p {
 
 .feature-content {
 	display: flex;
-	width: 90%;
-	max-width: 90%;
+	width: 80%;
+	max-width: 80%;
 	justify-content: center;
 	text-shadow: 2px 2px 5px black;
 }
@@ -884,7 +885,7 @@ p {
 
 
 .events-news-title {
-	font-size: 55px;
+	font-size: 36px;
 	text-align: center;
 	margin: 100px 20px 50px;;
 }
@@ -986,7 +987,7 @@ section#gallery-section.gallery {
 
 
 .gallery-title {
-	font-size: 55px;
+	font-size: 32px;
 	text-align: center;
 }
 
@@ -1069,7 +1070,7 @@ section#gallery-section.gallery {
 
 .socials-title {
 	margin-top: 100px;
-	font-size: 55px;
+	font-size: 32px;
 }
 
 .socials-description {
@@ -1188,8 +1189,8 @@ section#gallery-section.gallery {
 	font-size: 34px;
 	display: flex;
 	justify-content: center;
-	margin-left: 30px;
 	margin-right: 30px;
+	margin-left: 30px;
 	}	
 
 .news-main-feature img{
@@ -1242,6 +1243,7 @@ section#gallery-section.gallery {
 	height: 30vh;
 	}	
 	
+
 	
 }
 
