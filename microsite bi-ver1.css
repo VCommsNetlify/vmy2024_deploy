@@ -50,11 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "BebasNeue Regular";
 }
 
-@media screen {
-	h1 {
-		font-size: 32px;
-	}
-}
 
 p {
 	font-family: "Montserrat Regular";
