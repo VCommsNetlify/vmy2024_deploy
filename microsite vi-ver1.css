@@ -34,22 +34,22 @@ body {
 @font-face {
 	font-family: "BebasNeue Regular";
 	src: url("Assets/Fonts/bebas_neue/BebasNeue-Regular.eot") format('eot'),
-		 url("Assets/Fonts/bebas_neue/BebasNeue-Regular.woff") format('woff'), 
-		 url("Assets/Fonts/bebas_neue/BebasNeue-Regular.woff2") format('woff2');
+	     url("Assets/Fonts/bebas_neue/BebasNeue-Regular.woff") format('woff'), 
+	     url("Assets/Fonts/bebas_neue/BebasNeue-Regular.woff2") format('woff2');
 }
 
 @font-face {
 	font-family: "Montserrat Regular";
 	src: url("Assets/Fonts/montserrat/Montserrat-Regular.eot") format('eot'),
-		 url("Assets/Fonts/montserrat/Montserrat-Regular.woff") format('woff'), 
-		 url("Assets/Fonts/montserrat/Montserrat-Regular.woff2") format('woff2');
+	     url("Assets/Fonts/montserrat/Montserrat-Regular.woff") format('woff'), 
+	     url("Assets/Fonts/montserrat/Montserrat-Regular.woff2") format('woff2');
 }
 
 @font-face {
 	font-family: "Barlow Condensed";
 	src: url("Assets/Fonts/barlow_condensed/BarlowCondensed-SemiBold.eot") format('eot'),
-		 url("Assets/Fonts/barlow_condensed/BarlowCondensed-SemiBold.woff") format('woff'),
-		 url("Assets/Fonts/barlow_condensed/BarlowCondensed-SemiBold.woff2") format('woff2') 
+	     url("Assets/Fonts/barlow_condensed/BarlowCondensed-SemiBold.woff") format('woff'),
+	     url("Assets/Fonts/barlow_condensed/BarlowCondensed-SemiBold.woff2") format('woff2');
 }
 
 
