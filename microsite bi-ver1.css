@@ -885,7 +885,7 @@ p {
 
 
 .events-news-title {
-	font-size: 36px;
+	font-size: 55px;
 	text-align: center;
 	margin: 100px 20px 50px;;
 }
@@ -987,7 +987,7 @@ section#gallery-section.gallery {
 
 
 .gallery-title {
-	font-size: 32px;
+	font-size: 55px;
 	text-align: center;
 }
 
@@ -1070,7 +1070,7 @@ section#gallery-section.gallery {
 
 .socials-title {
 	margin-top: 100px;
-	font-size: 32px;
+	font-size: 55px;
 }
 
 .socials-description {
@@ -1186,7 +1186,7 @@ section#gallery-section.gallery {
 	}
 	
 .events-news-title, .gallery-title, .socials-title {
-	font-size: 34px;
+	font-size: 55px;
 	display: flex;
 	justify-content: center;
 	margin-right: 30px;
@@ -1226,7 +1226,7 @@ section#gallery-section.gallery {
 	}	
 	
 .gallery-section-title h1 {
-	font-size: 32px;	
+	font-size: 55px;	
 	}
 	
 .galleries {
