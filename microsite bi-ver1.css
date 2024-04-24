@@ -886,7 +886,7 @@ p {
 .events-news-title {
 	font-size: 55px;
 	text-align: center;
-	margin: 100px 20px 50px;;
+	margin: 100px 20px 50px;
 }
 
 .news-section {
@@ -1310,7 +1310,7 @@ section#gallery-section.gallery {
     width: 100%;
     display: none;
     overflow: hidden;
-	margin: 0 auto;
+		margin: 0 auto;
 }
 
 .playlist-page.video-active {
@@ -1320,7 +1320,7 @@ section#gallery-section.gallery {
 .btn-group {
     display: flex;
     flex-wrap: wrap;
-	justify-content: center;
+		justify-content: center;
 }
 
 .btn {
@@ -1338,10 +1338,10 @@ section#gallery-section.gallery {
 
 .thumbnail-container {
     display: flex;
-	flex-wrap:wrap;
+		flex-wrap:wrap;
     justify-content: center;
     margin-top: 20px;
-	padding: 10px;
+		padding: 10px;
 }
 
 .thumbnail {
