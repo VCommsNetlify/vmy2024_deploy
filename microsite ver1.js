@@ -335,7 +335,7 @@ function createThumbnails() {
 			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04172024-vmalaysia2024-mission-unstoppable-vp-v-padmac36ff2f3-42ff-4e70-9740-37445e5549ec.png';
 		} else if (h === 8) {
 			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04122024-vmalaysia2024-mission-unstoppable-vp-donna-imson-lecaroz924fcf8f-6ce5-47c4-b821-611cb7f1a564.png';
-    } else if (h === 9) {
+    		} else if (h === 9) {
 			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04122024-vmalaysia2024-mission-unstoppable-vp-sachin-gupta5005745c-f83e-4540-a900-adff4fdfc17a.png';
 		} else if (h === 10) {
 			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04112024-vmalaysia2024-mission-unstoppable-vp-ranjit-singh67aa8380-f32d-4dfa-8438-564815e31383.png';
