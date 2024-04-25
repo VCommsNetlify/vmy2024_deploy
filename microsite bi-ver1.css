@@ -981,7 +981,7 @@ section#gallery-section.gallery {
 }
 
 
-.gallery-title {
+.gallery-section-title h1{
 	font-size: 55px;
 	text-align: center;
 }
