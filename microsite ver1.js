@@ -55,7 +55,7 @@ function padNumbers(number) {
 
 //---------------------------//
 //       V-CON HISTORY       //
-//.        MAIN MENU         //
+//         MAIN MENU         //
 //---------------------------//
 var acc = document.getElementsByClassName("menu-accordion");
 var i;
