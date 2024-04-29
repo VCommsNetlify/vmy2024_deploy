@@ -319,40 +319,42 @@ function createThumbnails() {
     for (var h = 1; h <= totalPages; h++) {
         var thumbnail = document.createElement('img');
         if (h === 1) {
-            thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04262024-vmalaysia2024-mission-unstoppable-vp-ibn-abbasc01a8071-18bb-4b77-bb8d-356c1d0da96d.png';
+            thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04292024-vmalaysia2024-mission-unstoppable-vp-sharfun-shaikhed7d4c51-2f94-468b-8df0-88108e66362c.png';
 		} else if (h === 2) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04252024-vmalaysia2024-mission-unstoppable-vp-adly-hassan358a5cb5-f997-46a8-927e-9c10e9894a9c.png';
+	    		thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04262024-vmalaysia2024-mission-unstoppable-vp-ibn-abbasc01a8071-18bb-4b77-bb8d-356c1d0da96d.png';
 		} else if (h === 3) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04242024-the-v-malaysia-2024s-official-microsite-is-now-herede0590b9-af83-4a24-afbe-6357c22fd68e.png';
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04252024-vmalaysia2024-mission-unstoppable-vp-adly-hassan358a5cb5-f997-46a8-927e-9c10e9894a9c.png';
 		} else if (h === 4) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04242024-vmalaysia2024-mission-unstoppable-vp-kuna-senathirajahd321c220-63be-4916-9bb5-98cc2115447f.png';
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04242024-the-v-malaysia-2024s-official-microsite-is-now-herede0590b9-af83-4a24-afbe-6357c22fd68e.png';
 		} else if (h === 5) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04222024-our-associate-v-partners-invite-you-to-v-malaysia-20245db576f0-672a-4dfe-a987-d09849d39ff3.png';
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04242024-vmalaysia2024-mission-unstoppable-vp-kuna-senathirajahd321c220-63be-4916-9bb5-98cc2115447f.png';
 		} else if (h === 6) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04192024-vmalaysia2024-mission-unstoppable-vp-mahendra-kumar59b3cac6-4373-4f50-9fd7-8d9dec0bbfd3.png';
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04222024-our-associate-v-partners-invite-you-to-v-malaysia-20245db576f0-672a-4dfe-a987-d09849d39ff3.png';
 		} else if (h === 7) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04192024-vmalaysia2024-mission-unstoppable-vp-kalai-manikamaa2ea855-781e-4369-9f30-767432c244fe.png';
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04192024-vmalaysia2024-mission-unstoppable-vp-mahendra-kumar59b3cac6-4373-4f50-9fd7-8d9dec0bbfd3.png';
 		} else if (h === 8) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04172024-vmalaysia2024-mission-unstoppable-vp-v-padmac36ff2f3-42ff-4e70-9740-37445e5549ec.png';
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04192024-vmalaysia2024-mission-unstoppable-vp-kalai-manikamaa2ea855-781e-4369-9f30-767432c244fe.png';
 		} else if (h === 9) {
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04172024-vmalaysia2024-mission-unstoppable-vp-v-padmac36ff2f3-42ff-4e70-9740-37445e5549ec.png';
+		} else if (h === 10) {
 			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04122024-vmalaysia2024-mission-unstoppable-vp-donna-imson-lecaroz924fcf8f-6ce5-47c4-b821-611cb7f1a564.png';
-    		} else if (h === 10) {
+    		} else if (h === 11) {
 			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04122024-vmalaysia2024-mission-unstoppable-vp-sachin-gupta5005745c-f83e-4540-a900-adff4fdfc17a.png';
-		} else if (h === 11) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04112024-vmalaysia2024-mission-unstoppable-vp-ranjit-singh67aa8380-f32d-4dfa-8438-564815e31383.png';
 		} else if (h === 12) {
-			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04112024-join-v-kids-and-v-teens-at-vmalaysia2024-1d65ef0a8-e856-42c6-a305-1641297b571d.jpg';
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04112024-vmalaysia2024-mission-unstoppable-vp-ranjit-singh67aa8380-f32d-4dfa-8438-564815e31383.png';
 		} else if (h === 13) {
-			thumbnail.src = 'https://i.ibb.co/BZB5hxj/04052024-VMalaysia2024-Mission-Unstoppable-VP-TG-Kintanar.jpg';
+			thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/04112024-join-v-kids-and-v-teens-at-vmalaysia2024-1d65ef0a8-e856-42c6-a305-1641297b571d.jpg';
 		} else if (h === 14) {
-			thumbnail.src = 'https://i.ibb.co/JRtV3cp/04052024-VMalaysia2024-Mssion-Unstoppable-Sathi-Senathirajah.jpg';
+			thumbnail.src = 'https://i.ibb.co/BZB5hxj/04052024-VMalaysia2024-Mission-Unstoppable-VP-TG-Kintanar.jpg';
 		} else if (h === 15) {
-			thumbnail.src = 'https://i.ibb.co/9wSdQTg/04012024-VMalaysia2024-Rise-Towards-Your-Unstoppable-Greatness.jpg';
+			thumbnail.src = 'https://i.ibb.co/JRtV3cp/04052024-VMalaysia2024-Mssion-Unstoppable-Sathi-Senathirajah.jpg';
 		} else if (h === 16) {
-			thumbnail.src = 'https://i.ibb.co/k53BP5J/03302024-VMalaysia2024-Mission-Unstoppable-VP-Dev-Johl.jpg';
+			thumbnail.src = 'https://i.ibb.co/9wSdQTg/04012024-VMalaysia2024-Rise-Towards-Your-Unstoppable-Greatness.jpg';
 		} else if (h === 17) {
-			thumbnail.src = 'https://i.ibb.co/gZX5Rt8/03262024-VMalaysia2024-Mission-Unstoppable-VP-David-Sharma.jpg';
+			thumbnail.src = 'https://i.ibb.co/k53BP5J/03302024-VMalaysia2024-Mission-Unstoppable-VP-Dev-Johl.jpg';
 		} else if (h === 18) {
+			thumbnail.src = 'https://i.ibb.co/gZX5Rt8/03262024-VMalaysia2024-Mission-Unstoppable-VP-David-Sharma.jpg';
+		} else if (h === 19) {
 			thumbnail.src = 'https://i.ibb.co/3SCqGQr/02212024-VMalaysia2024-Make-Your-Decision-to-Be-Unstoppable.jpg';
 		}
 		
