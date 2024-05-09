@@ -321,7 +321,7 @@ function createThumbnails() {
         if (h === 1) {
             thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/05082024-vmalaysia2024-mission-unstoppable-founder-dato-sri-vijay-eswaran5f28d914-c9ab-45c3-9a9b-1aac7aed931b.png';
 		} else if (h === 2) {
-	    		thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/05082024-vmalaysia2024-mission-unstoppable-founder-dato-sri-vijay-eswaran5f28d914-c9ab-45c3-9a9b-1aac7aed931b.png';
+	    		thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/05072024-vmalaysia2024-mission-unstoppable-founder-joseph-sriman-japadas-bismark1aee3933-c2e3-4108-9403-d77c42616c88.png';
 		} else if (h === 3) {
 	    		thumbnail.src = 'Assets/3. Events, Gallery and Socials/3. News/05062024-our-founders-invite-you-to-v-malaysia-20240d0ef9c0-5e69-4ca2-a9da-e3633bf7e9f1.png';
 		} else if (h === 4) {
