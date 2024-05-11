@@ -40,7 +40,7 @@ const timer = setInterval(function() {
 
     if (distance < 0) {
         clearInterval(timer);
-        document.getElementById("countdown").innerHTML = "<p>WELCOME HOME</p>";
+        document.getElementById("countdown").innerHTML = "<p>BIENVENUE À LA MAISON!</p>";
     }
 }, 1000);
 
