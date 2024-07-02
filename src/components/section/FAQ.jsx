@@ -8,8 +8,8 @@ const FAQItem = ({ question, answer }) => {
 
     return (
         <>
-            <button className={classNames("faqs-accordion", active && "active")} onClick={() => setActive(!active)}>
-                <span className="translate" data-key="faqs-1">
+            <button className={classNames("faqs-accordion ", active && "active")} onClick={() => setActive(!active)}>
+                <span className="translate !font-medium" data-key="faqs-1">
                     {question}
                 </span>
             </button>
@@ -27,7 +27,7 @@ const FAQ = () => {
 
     useEffect(() => {
         if (viewMore) setFaq(data);
-        else setFaq(data.slice(0, 4));
+        else setFaq(data.slice(0, 5));
     }, [viewMore]);
 
     return (
@@ -41,7 +41,11 @@ const FAQ = () => {
                     {faq.map((item, idx) => (
                         <FAQItem key={idx} {...item} />
                     ))}
-                    <button onClick={() => setViewMore(!viewMore)} id="viewMoreBtn" className="view-more">
+                    <button
+                        onClick={() => setViewMore(!viewMore)}
+                        id="viewMoreBtn"
+                        className="view-more border-solid border-2 font-medium border-black"
+                    >
                         {" "}
                         VIEW {viewMore ? "LESS" : "MORE"}
                     </button>

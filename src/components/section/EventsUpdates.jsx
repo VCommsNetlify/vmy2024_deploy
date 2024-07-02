@@ -1,101 +1,106 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
+import data from "../../../public/data/events.json";
+import classNames from "classnames";
+
+const Event = ({ img, articleLink, title, idx }) => {
+    return (
+        <div className={`md:w-[45%] w-full`}>
+            <a href={articleLink}>
+                <img src={img} alt="image" className="w-full" />
+            </a>
+            <p className="text-white font-semibold mt-2">{title}</p>
+        </div>
+    );
+};
 
 const EventsUpdates = () => {
+    let [currentPage, setCurrentPage] = useState(0);
+    let [pages, setPages] = useState([]);
+
+    useEffect(() => {
+        setPages(Array.from({ length: Math.ceil((data.others.length || 2) / 2) }, (_, i) => i + 1));
+    }, []);
+
     return (
         <div className="events-socials-container">
-            <div className="row col-12 news-title">
+            <div className="container mx-auto ">
                 <img
                     src="assets/Headers/Events news and update header.png"
                     id="news-sec"
-                    className="events-news-title"
+                    className="w-full md:w-[60vw]"
                     alt="News Header"
                 />
             </div>
 
             <section id="news-section" className="news-section">
-                <div className="row col-12 news">
-                    <div className="col-12 news-main-feature">
-                        <a href="https://the-v.net/en/news?id=06262024-v-malaysia-2024-day-3-support-powered-success-by-datin-sri-umayal-eswaran">
-                            <img
-                                src="assets/3-Events-Gallery/3-News/06262024-v-malaysia-2024-day-3-support-powered-success-by-datin-sri-umayal-eswaran7d97403b-ebd3-4244-85c1-91df4cd17cf7.png"
-                                alt="image"
-                            />
+                <div className="row">
+                    <div className="container mx-auto w-full">
+                        <a target="_blank" href={data.featured.articleLink}>
+                            <img src={data.featured.img} alt="image" className="w-full" />
                         </a>
-                        <h4>V-Malaysia 2024 Day 3: Support-Powered Success by Datin Sri Umayal Eswaran</h4>
-                        <p>
+                        <h4 className="text-lg md:text-xl mt-2 text-white font-semibold">{data.featured.title}</h4>
+                        <p className="text-sm text-white">
                             CHECK OUT THE FULL STORY!{" "}
-                            <a href="https://the-v.net/en/news?id=06262024-v-malaysia-2024-day-3-support-powered-success-by-datin-sri-umayal-eswaran">
+                            <a href={data.featured.articleLink} target="_blank" className="text-white underline">
                                 READ MORE!
                             </a>
                         </p>
                     </div>
                 </div>
                 <div className="row featured-news">
-                    <div className="col-12">
-                        <div className="news-features">
-                            <div className="news-feature-1">
-                                <a href="https://the-v.net/en/news?id=06252024-v-malaysia-2024-day-3-unwavering-belief-unstoppable-success-by-datin-sri-umayal-eswaran">
-                                    <img
-                                        src="assets/3-Events-Gallery/3-News/06252024-v-malaysia-2024-day-3-unwavering-belief-unstoppable-success-by-datin-sri-umayal-eswaran9fa7f99a-e3a3-45f4-bc3a-938d1b241b86.png"
-                                        alt="image"
-                                    />
-                                </a>
-                                <p>
-                                    V-Malaysia 2024 Day 3: Unwavering Belief, Unstoppable Success by Datin Sri Umayal
-                                    Eswaran
-                                </p>
-                            </div>
-                            <div className="news-feature-2">
-                                <a href="https://the-v.net/en/news?id=06192024-v-malaysia-2024-day-3-master-your-future-by-dato-sri-vijay-eswaran">
-                                    <img
-                                        src="assets/3-Events-Gallery/3-News/06192024-v-malaysia-2024-day-3-master-your-future-by-dato-sri-vijay-eswaran8e1dc00a-2817-43e6-9687-bde84467e454.png"
-                                        alt="image"
-                                    />
-                                </a>
-                                <p>V-Malaysia 2024 Day 3 - Master Your Future by Dato Sri Vijay Eswaran</p>
-                            </div>
-                            <div className="news-feature-3">
-                                <a href="https://the-v.net/en/news?id=06072024-save-the-date-for-a-greater-vmalaysia2024-this-september">
-                                    <img
-                                        src="assets/3-Events-Gallery/3-News/06072024-save-the-date-for-a-greater-vmalaysia2024-this-september816262d6-86b0-4f8a-8065-3128a8aad75a.png"
-                                        alt="image"
-                                    />
-                                </a>
-                                <p>SAVE THE DATE FOR A GREATER #VMALAYSIA2024 THIS SEPTEMBER!</p>
-                            </div>
-                            <div className="news-feature-4">
-                                <a href="https://the-v.net/en/news?id=06062024-v-malaysia-2024-day-3-from-captivity-to-freedom-by-dato-sri-vijay-eswaran">
-                                    <img
-                                        src="assets/3-Events-Gallery/3-News/06062024-v-malaysia-2024-day-3-from-captivity-to-freedom-by-dato-sri-vijay-eswaran970af239-ffe5-4583-96c3-066f7e188902.png"
-                                        alt="image"
-                                    />
-                                </a>
-                                <p>V-Malaysia 2024 Day 3: From Captivity to Freedom by Dato Sri Vijay Eswaran</p>
-                            </div>
+                    <div className="container mx-auto w-full">
+                        <div className="flex flex-wrap gap-4  items-start justify-center w-full">
+                            {data.others.slice(currentPage * 2, currentPage * 2 + 2).map((event, idx) => (
+                                <Event {...event} key={idx} idx={idx} />
+                            ))}
                         </div>
                     </div>
                 </div>
-                <div className="row selector">
-                    <div className="col-xs-12 col-sm-auto">
-                        <div className="btn-group flex text-lg">
-                            <button className="btn btn-default mx-1" onclick="prevPage()">
-                                ← PREV
-                            </button>
-                            <button className="btn btn-default mx-1" onclick="goToPage(1)">
-                                1
-                            </button>
-                            <button className="btn btn-default mx-1" onclick="goToPage(2)">
-                                2
-                            </button>
-                            <button className="btn btn-default mx-1" onclick="goToPage(3)">
-                                3
-                            </button>
-                            <button className="btn btn-default mx-1" onclick="nextPage()">
-                                NEXT →
-                            </button>
+                <div className="flex items-center justify-center w-full my-6 lg:my-12 md:text-lg text-base">
+                    <div className="flex">
+                        <button
+                            className={classNames(
+                                "underline text-white",
+                                currentPage === 0 && " opacity-60 cursor-not-allowed"
+                            )}
+                            disabled={currentPage === 0}
+                            onClick={() => setCurrentPage(currentPage - 1)}
+                        >
+                            Prev
+                        </button>
+                        <div className="mx-4">
+                            {pages.map((item, idx) => {
+                                return (
+                                    <button
+                                        key={idx}
+                                        disabled={currentPage === item - 1}
+                                        onClick={() => setCurrentPage(item - 1)}
+                                        className={classNames(
+                                            "mx-2 text-white",
+                                            currentPage === item - 1 && "font-bold"
+                                        )}
+                                    >
+                                        {item}
+                                    </button>
+                                );
+                            })}
                         </div>
+
+                        <button
+                            className={classNames(
+                                "underline text-white",
+                                currentPage === pages[pages.length - 1] - 1 && "opacity-60 cursor-not-allowed"
+                            )}
+                            disabled={currentPage === pages[pages.length - 1] - 1}
+                            onClick={() => setCurrentPage(currentPage + 1)}
+                        >
+                            Next
+                        </button>
                     </div>
                 </div>
+
+                {/*  */}
             </section>
         </div>
     );

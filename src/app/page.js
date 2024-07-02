@@ -11,7 +11,7 @@ import Quiz from "@/components/section/Quiz";
 export default function Home() {
     return (
         <>
-            <div className="floater-icon bg-red-400">
+            <div className="floater-icon">
                 <a href="#warrior-type">
                     <img src="assets/Floater-Blue.png" alt="floater" />
                 </a>
