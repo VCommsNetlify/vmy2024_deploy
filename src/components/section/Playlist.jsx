@@ -16,7 +16,7 @@ const Playlist = () => {
     return (
         <>
             <div id="playlist-sec" className="anchor"></div>
-            <section id="playlist-section" className="row playlist-history">
+            <section id="playlist-section" className="playlist-history">
                 <div className="mt-5">
                     <div className="container mx-auto ">
                         <img
@@ -26,15 +26,20 @@ const Playlist = () => {
                             alt="Playlist Header"
                         />
                     </div>
-                    <div className="row">
-                        <div className="col-12 main">
-                            <div className="row col-12 video-container">
-                                <div className="video-playlist-1">
-                                    <iframe src={data[vidIdx]?.video} frameBorder="0" allowFullScreen></iframe>
+                    <div className="mx-auto">
+                        <div className=" main">
+                            {/* <div className="bg-red-400 w-40 h-40"></div> */}
+                            <div className=" video-container">
+                                <div className="video-playlist-1 ">
+                                    <iframe
+                                        className="h-[320px]  md:h-[500px]"
+                                        src={data[vidIdx]?.video}
+                                        frameBorder="0"
+                                        allowFullScreen
+                                    ></iframe>
                                 </div>
                             </div>
-
-                            <div className="row col-12 playlist-navigation">
+                            <div className="relative w-3/4 playlist-navigation">
                                 <button
                                     id="prevButton"
                                     className="playlist-prev-icon disabled:cursor-not-allowed disabled:opacity-60"
@@ -46,7 +51,7 @@ const Playlist = () => {
                                         alt=""
                                     />
                                 </button>
-                                <div className="playlist-scroll-container">
+                                <div className="playlist-scroll-container w-2/3">
                                     <div className="playlist-selector">
                                         {data.map((vid, idx) => (
                                             <VideoThumbnail

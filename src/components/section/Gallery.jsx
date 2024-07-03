@@ -17,44 +17,83 @@ const Gallery = () => {
                 </div>
                 <div className="row galleries">
                     <div className="col-lg-8 col-md-8 col-sm-8">
-                        <div className="col-lg-4 col-md-4 col-sm-4 photo-album">
-                            <a href="https://the-v.net/en/album/vmalaysia2024-registration-day-v-limitless">
+                        <div className="col-lg-4 col-md-4 col-sm-4 photo-album h-[200px] sm:h-auto relative">
+                            <a
+                                href="https://the-v.net/en/album/vmalaysia2024-registration-day-v-limitless"
+                                className="w-full h-full block relative"
+                            >
                                 <img
                                     src="assets/3-Events-Gallery/2-Gallery-Image/Reg Day/051124-VMY2024 - Reg Day.jpeg"
                                     alt="Photo 1"
+                                    className="w-full h-full object-cover"
                                 />
                             </a>
                             <div className="caption-img">VMalaysia 2024 - May 12-16 - Reg Day </div>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-2 photo-album">
-                            <a href="https://the-v.net/en/album/vmalaysia2024-day-1-gallery">
-                                <img src="assets/3-Events-Gallery/2-Gallery-Image/Day 1/78.jpg" alt="Photo 2" />
+                        <div className="col-lg-2 col-md-2 col-sm-2 photo-album h-[200px] sm:h-auto">
+                            <a
+                                href="https://the-v.net/en/album/vmalaysia2024-day-1-gallery"
+                                className="w-full h-full block relative"
+                            >
+                                <img
+                                    className="w-full h-full object-cover"
+                                    src="assets/3-Events-Gallery/2-Gallery-Image/Day 1/78.jpg"
+                                    alt="Photo 2"
+                                />
                             </a>
                             <div className="caption-img">VMalaysia 2024 - May 12-16 - Day 1</div>
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 photo-album">
-                            <a href="https://the-v.net/en/album/vmalaysia2024-day-2-gallery">
-                                <img src="assets/3-Events-Gallery/2-Gallery-Image/Day 2/182.jpg" alt="Photo 3" />
+                        <div className="col-lg-4 col-md-4 col-sm-4 photo-album h-[200px] md:h-auto">
+                            <a
+                                href="https://the-v.net/en/album/vmalaysia2024-day-2-gallery"
+                                className="w-full h-full block relative"
+                            >
+                                <img
+                                    className="w-full h-full object-cover"
+                                    src="assets/3-Events-Gallery/2-Gallery-Image/Day 2/182.jpg"
+                                    alt="Photo 3"
+                                />
                             </a>
                             <div className="caption-img">VMalaysia 2024 - May 12-16 - Day 2</div>
                         </div>
                     </div>
                     <div className="col-lg-8 col-md-8 col-sm-8">
-                        <div className="col-lg-2 col-md-2 col-sm-2 photo-album">
-                            <a href="https://the-v.net/en/album/vmalaysia2024-day-3-gallery">
-                                <img src="assets/3-Events-Gallery/2-Gallery-Image/Day 3/181.jpg" alt="Photo 3" />
+                        <div className="col-lg-2 col-md-2 col-sm-2 photo-album h-[200px] sm:h-auto">
+                            <a
+                                href="https://the-v.net/en/album/vmalaysia2024-day-3-gallery"
+                                className="w-full h-full block relative"
+                            >
+                                <img
+                                    className="w-full h-full object-cover"
+                                    src="assets/3-Events-Gallery/2-Gallery-Image/Day 3/181.jpg"
+                                    alt="Photo 3"
+                                />
                             </a>
                             <div className="caption-img">VMalaysia 2024 - May 12-16 - Day 3</div>
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 photo-album">
-                            <a href="https://the-v.net/en/album/vmalaysia2023-17-21-september-day-3-gallery">
-                                <img src="assets/3-Events-Gallery/2-Gallery-Image/Day 4/112.jpg" alt="Photo 4" />
+                        <div className="col-lg-4 col-md-4 col-sm-4 photo-album h-[200px] sm:h-auto">
+                            <a
+                                href="https://the-v.net/en/album/vmalaysia2023-17-21-september-day-3-gallery"
+                                className="w-full h-full block relative"
+                            >
+                                <img
+                                    className="w-full h-full object-cover"
+                                    src="assets/3-Events-Gallery/2-Gallery-Image/Day 4/112.jpg"
+                                    alt="Photo 4"
+                                />
                             </a>
                             <div className="caption-img">VMalaysia 2024 - May 12-16 - Day 4</div>
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-4 photo-album">
-                            <a href="https://the-v.net/en/album/vmalaysia2023-8-12-september-day-2-gallery">
-                                <img src="assets/3-Events-Gallery/2-Gallery-Image/Day 5/106.jpg" alt="Photo 2" />
+                        <div className="col-lg-4 col-md-4 col-sm-4 photo-album h-[200px] sm:h-auto ">
+                            <a
+                                href="https://the-v.net/en/album/vmalaysia2023-8-12-september-day-2-gallery"
+                                className="w-full h-full block relative"
+                            >
+                                <img
+                                    className="w-full h-full object-cover"
+                                    src="assets/3-Events-Gallery/2-Gallery-Image/Day 5/106.jpg"
+                                    alt="Photo 2"
+                                />
                             </a>
                             <div className="caption-img">VMalaysia 2023 - Sep 8-12 - Day 2</div>
                         </div>

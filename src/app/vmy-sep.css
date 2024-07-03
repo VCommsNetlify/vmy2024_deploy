@@ -528,14 +528,12 @@ button {
     display: flex;
     justify-content: center;
     width: 750px;
-    height: 500px;
     padding: 10px;
     border-radius: 10px;
 }
 
 .video-container iframe {
     width: 750px;
-    height: 500px;
     border-radius: 10px;
 }
 
@@ -564,31 +562,31 @@ button {
 }
 
 .playlist-prev-icon {
-    margin: 0 50px;
+    margin: 0 24px;
     background-color: transparent;
     border: none;
 }
 
 .playlist-next-icon {
-    margin: 0 50px;
+    margin: 0 24px;
     background-color: transparent;
     border: none;
 }
 
 .playlist-navigation {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 100px;
 }
 
 @media (max-width: 768px) {
     .video-container iframe {
-        width: 400px;
+        width: 100%;
     }
 
-    .playlist-selector {
-        max-width: 400px !important;
-    }
+    /* .playlist-selector {
+        max-width: 100% !important;
+    } */
 
     .playlist-selector button {
         width: 10em;
@@ -697,7 +695,6 @@ div.row.galleries {
 
 .photo-album img {
     height: 100%;
-    width: auto;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
@@ -1012,4 +1009,13 @@ div.row.galleries {
         margin: 0;
         text-shadow: 2px 2px 5px black;
     }
+}
+
+.react-multi-carousel-dot button {
+    background: #808080 !important;
+    opacity: 30%;
+}
+
+.react-multi-carousel-dot--active button {
+    background: #fff !important;
 }

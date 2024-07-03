@@ -1,9 +1,98 @@
+"use client";
 import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import data from "../../../public/data/carousel.json";
+
+const CarouselItem = ({ img, idx }) => {
+    return (
+        <div className="h-[60vh] md:h-[90vh] w-screen relative">
+            <img className="object-cover h-full w-full " src={img} alt={`Slide ${idx + 1}`} />
+        </div>
+    );
+};
+
+/**
+ * 
+ * @returns <img
+                    src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+                    style={{
+                        display: "block",
+                        height: "100%",
+                        margin: "auto",
+                        width: "100%",
+                    }}
+                />
+ */
 
 const Merch = () => {
     return (
-        <section>
-            <div
+        <section className="max-h-[60vh] md:max-h-[90vh] h-full relative">
+            <div className="absolute w-full top-0 merch-accordion merch-gradient">
+                <h1 className="translate">YOUR UNSTOPPABLE STYLE</h1>
+                <p className="translate" data-key="merch-description">
+                    Pursuing greatness comes with great style. Check out this unstoppable merchandise collection soon
+                    available at the Limitless Store.
+                </p>
+            </div>
+
+            <Carousel
+                additionalTransform={0}
+                arrows
+                autoPlay
+                autoPlaySpeed={4000}
+                centerMode={false}
+                className="h-[60vh] md:h-[90vh]"
+                containerClass=""
+                dotListClass=""
+                draggable
+                focusOnSelect={false}
+                infinite
+                itemClass=""
+                keyBoardControl
+                minimumTouchDrag={80}
+                pauseOnHover
+                renderArrowsWhenDisabled={false}
+                renderButtonGroupOutside={false}
+                renderDotsOutside={false}
+                responsive={{
+                    desktop: {
+                        breakpoint: {
+                            max: 3000,
+                            min: 1024,
+                        },
+                        items: 1,
+                    },
+                    mobile: {
+                        breakpoint: {
+                            max: 464,
+                            min: 0,
+                        },
+                        items: 1,
+                    },
+                    tablet: {
+                        breakpoint: {
+                            max: 1024,
+                            min: 464,
+                        },
+                        items: 1,
+                    },
+                }}
+                rewind={true}
+                rewindWithAnimation={true}
+                rtl={false}
+                shouldResetAutoplay
+                showDots
+                sliderClass=""
+                slidesToSlide={1}
+                swipeable
+            >
+                {data.map((item, idx) => (
+                    <CarouselItem key={idx} idx={idx} {...item} />
+                ))}
+            </Carousel>
+
+            {/* <div
                 id="merch-carousel"
                 className="carousel slide"
                 data-ride="carousel"
@@ -78,7 +167,7 @@ const Merch = () => {
                         soon available at the Limitless Store.
                     </p>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 };
