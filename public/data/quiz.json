@@ -1,0 +1,65 @@
+[
+    {
+        "question": "When pursuing a goal, what do you need the most?",
+        "answers": ["Dream", "Plan", "Nothing"],
+        "img": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=2936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "You spend most of your days doing:",
+        "answers": ["Presentacion and Learning About the Business", "Connecting with mentor and team", "Just waiting"],
+        "img": "https://images.unsplash.com/photo-1565639828644-ff8e088ebfa8?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "In this journey, you believe the most in:",
+        "answers": ["Your own dreams and goals", "Potential in People", "Nothing, Still doubtful"],
+        "img": "https://images.unsplash.com/photo-1523975864490-174dd4d9a41e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "When making decisions, what do you prefer?",
+        "answers": [
+            "Stay focused and restart as needed",
+            "Explore your options and seek guidance",
+            "Do nothing and just wait"
+        ],
+        "img": "https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "What do you aspire for the future?",
+        "answers": [
+            "Share this opportunity and inspire others",
+            "Create bigger goals and help others",
+            "Do nothing forever"
+        ],
+        "img": "https://images.unsplash.com/photo-1546188994-07c34f6e5e1b?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "How do you face challenges?",
+        "answers": ["Lead and face them head-on", "Hide and avoid", "Reflect and conquer"],
+        "img": "https://images.unsplash.com/photo-1442128788708-15f1811dd622?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "How do you see yourself?",
+        "answers": ["Dreamer", "Adventurer", "Failure"],
+        "img": "https://images.unsplash.com/photo-1515463626042-123ab67dcaa7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "What do you prefer to focus on?",
+        "answers": ["Why", "How", "None"],
+        "img": "https://images.unsplash.com/photo-1517926112623-f32a800790d4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "When you meet new people, what do you see first?",
+        "answers": ["Potential", "Character", "Nothing"],
+        "img": "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?q=80&w=2944&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "You are coming to #VMalaysia2024 this September because of the:",
+        "answers": ["Insights", "Experience", "Don't want to"],
+        "img": "https://images.unsplash.com/photo-1499540633125-484965b60031?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "question": "Are you ready for #VMalaysia2024 this September?",
+        "answers": ["Yes", "Absolutely", "No"],
+        "img": "https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=3028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
