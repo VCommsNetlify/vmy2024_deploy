@@ -4,6 +4,9 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {},
+            screens: {
+                "hover-hover": { raw: "(hover: hover)" },
+            },
         },
     },
     plugins: [],

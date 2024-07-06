@@ -1,0 +1,34 @@
+{
+    "Game Changer": {
+        "description": "<p>You’re not here to just play by the rules — you are here to change the game!</p><p>With your unique vision, decisive nature, and fearlessness to take on any challenge, you are a trailblazer set to create countless new opportunities and transform the lives of the people around you.</p><p>Not only do you thrive in this fast-paced and ever-changing world; you are also one of the forces that decide and control where it’s heading.</p>",
+        "img": "https://images.unsplash.com/photo-1588591795084-1770cb3be374?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    "Voyager": {
+        "description": "<p>This life is an adventure, and you are born to explore!</p>Always ready to conquer the world, you see even the toughest challenges as opportunities to learn new things, build more connections, and continuously grow into the best version of yourself. What most people fear excites you, and your curiosity takes you to places no one has ever been to before.<p>With the dauntless and free-spirited nature of an adventurer, the unknown is truly your playground!</p>",
+        "img": "https://images.unsplash.com/reserve/xfv4Ek6qRre3Ud7p9row_sylwiabartyzel_unsplash_08.jpg?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    "Challenger": {
+        "description": "<p>Challenges only make you stronger!</p><p>Gritty and naturally competitive, you charge into the scene to test out your strengths and see where you can improve on. You do not fear taking risks as you are always quick to adapt and overcome.</p><p>Whatever the task and no matter the odds, you only have two words to say: challenge accepted!</p>",
+        "img": "https://images.unsplash.com/photo-1581822261290-991b38693d1b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    "Advocate": {
+        "description": "<p>You have the mark of a true servant leader!</p><p>With a heart full of compassion and hands always ready to help, you willingly offer yourself to a greater cause and serve as a shining beacon of guidance and empowerment. Your deeds and values inspire those around you, creating a positive impact wherever you go.</p><p>May you always embody the philosophy of RYTHM!</p>",
+        "img": "https://images.unsplash.com/photo-1649653084130-06638e40ca25?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    "Coach": {
+        "description": "<p>It takes talent to bring out the best in others, and that is exactly what you have!</p><p>Thanks to your ability to make strong connections, share insightful ideas, and lead by example, you help those around you to grow into the best versions of themselves and achieve their biggest dreams. You strike the perfect balance between encouragement and honesty — telling them not what they want to hear, but what they need to hear.</p><p>So, if people want to succeed, they better listen to you!</p>",
+        "img": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    "Team Player": {
+        "description": "<p>Everyone wants someone like YOU in their team!</p><p>It’s an understatement to say you work well with others — building strong and genuine connections; fostering a positive and harmonious culture; and always willing to make even the most difficult adjustments for the best of everyone. You keep others motivated with the energy you bring to the group, making it easier to achieve all your goals together.</p><p>You most definitely deserve an MVP award!</p>",
+        "img": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    "Innovator": {
+        "description": "<p>Your creativity is limitless — and so are you!</p><p>Through your groundbreaking ideas, you help make the world a better place to live in. You continuously find solutions to the toughest problems and pave the way for exciting new opportunities. Luckily enough, your curiosity is only matched by your willingness to share your valuable insights with the people around you.</p><p>With the power of your mind and hard work, truly nothing is impossible!</p>",
+        "img": "https://images.unsplash.com/photo-1675044794023-2c70962f4899?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    "Wimp": {
+        "description": "<p>Everyone needs to start from somewhere!</p><p>Just know that an exciting journey full of unbelievable opportunities is yours for the taking. All you need to do is make the decision and commit to it. Empty your cup, fear no rejection, and become the warrior you are destined to be!</p><p>Are you ready?</p>",
+        "img": "https://images.unsplash.com/photo-1608202381022-ceb4266e14f2?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+}
