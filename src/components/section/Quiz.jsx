@@ -143,6 +143,7 @@ const Quiz = () => {
     const [index, setIndex] = useState(0);
     const [answers, setAnswers] = useState(quiz.map(() => ""));
     const [completed, setCompleted] = useState(false);
+    const [startScreen, setStartScreen] = useState(true);
 
     useEffect(() => {
         setLoading(true);
@@ -162,7 +163,31 @@ const Quiz = () => {
                     />
                 </div>
                 <div className="w-full flex items-center justify-center"></div>
-                {completed ? (
+
+                {startScreen ? (
+                    <div className="flex min-h-[80vh] items-center py-4 md:py-16 justify-start text-white text-center flex-col gap-4">
+                        <h3>It is time to RISE AGAIN and show the world how unstoppable we are.</h3>
+                        <h4>Take this quiz and discover what kind of warrior you are.</h4>
+                        <div className="flex items-center justify-center gap-8 py-4">
+                            <a href="https://www.facebook.com/thevofficial">
+                                <img src="assets/3-Events-Gallery/4-Channels/FB-logo.png" className="w-12" alt="FB" />
+                            </a>
+                            <a href="https://twitter.com/thev_official">
+                                <img src="assets/3-Events-Gallery/4-Channels/IG-logo.png" className="w-12" alt="IG" />
+                            </a>
+                            <a href="https://instagram.com/thev_official">
+                                <img src="assets/3-Events-Gallery/4-Channels/X-logo.png" className="w-12" alt="X" />
+                            </a>
+                        </div>
+
+                        <button
+                            onClick={() => setStartScreen(false)}
+                            className="text-2xl transition-all duration-300 ease-in-out my-8 bg-[#4B69FF] disabled:bg-transparent disabled:cursor-not-allowed disabled:opacity-60  border-2 border-solid border-white uppercase text-white px-4 py-2 font-semibold"
+                        >
+                            Start!
+                        </button>
+                    </div>
+                ) : completed ? (
                     <div className="flex min-h-[80vh] py-16 items-center justify-center">
                         <Result
                             answers={answers}
