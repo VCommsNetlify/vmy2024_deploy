@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { Fragment, useEffect, useRef, useState } from "react";
 import classNames from "classnames";
 import quiz from "../../../public/data/quiz.json";
 import result from "../../../public/data/result.json";
@@ -18,8 +18,13 @@ const getWarriorType = (answers) => {
     });
 
     Object.keys(calc).forEach((key) => {
-        if (highest === null) highest = { key: key, value: calc[key] };
-        if (highest.value < calc[key]) highest = { key: key, value: calc[key] };
+        if (highest === null) {
+            highest = [{ key: key, value: calc[key] }];
+        } else if (highest[0].value < calc[key]) {
+            highest = [{ key: key, value: calc[key] }];
+        } else if (highest[0].value === calc[key]) {
+            highest.push({ key: key, value: calc[key] });
+        }
     });
 
     return highest;
@@ -27,6 +32,7 @@ const getWarriorType = (answers) => {
 
 const Result = ({ answers, setCompleted, setAnswers, setIndex }) => {
     const [loading, setLoading] = useState(true);
+    const [resultIndex, setResultIndex] = useState(0);
     const finalResult = getWarriorType(answers);
 
     useEffect(() => {
@@ -40,15 +46,82 @@ const Result = ({ answers, setCompleted, setAnswers, setIndex }) => {
     return (
         <div className="mx-auto container w-full md:w-3/5">
             <div className="min-h-64 w-full border-solid border-2 border-white rounded-md p-8 flex flex-col gap-2 items-center justify-center text-center text-white py-16 relative">
-                <Image fill={true} className="object-cover w-full h-full z-10" src={warrior[finalResult.key].img} />
-                <div className="bg-black/60 w-full h-full absolute z-10"></div>
+                {finalResult.map((item, idx) => {
+                    return (
+                        <Fragment key={idx}>
+                            <Image
+                                fill={true}
+                                className={classNames(
+                                    "object-cover w-full h-full z-10 transition-all duration-300",
+                                    resultIndex === idx ? "opacity-100" : "opacity-0"
+                                )}
+                                src={warrior[item.key].img}
+                            />
+                            <div
+                                className={classNames(
+                                    "bg-black/60 w-full h-full absolute z-20",
+                                    resultIndex === idx ? "block" : "hidden"
+                                )}
+                            ></div>
+                            <h5
+                                className={classNames(
+                                    "tracking-widest mb-2 z-20",
+                                    resultIndex === idx ? "block" : "hidden"
+                                )}
+                            >
+                                YOU ARE A:
+                            </h5>
+                            <div className="flex gap-4 items-center">
+                                {finalResult.length > 1 && (
+                                    <button
+                                        className={classNames(
+                                            "text-3xl text-white z-30 disabled:opacity-60 disabled:cursor-not-allowed",
+                                            resultIndex === idx ? "block" : "hidden"
+                                        )}
+                                        disabled={resultIndex === 0}
+                                        onClick={() => {
+                                            setResultIndex(resultIndex - 1);
+                                        }}
+                                    >
+                                        {"←"}
+                                    </button>
+                                )}
+                                <h2
+                                    className={classNames(
+                                        "font-semibold uppercase tracking-wider text-white z-30 transition-all duration-300",
+                                        resultIndex === idx
+                                            ? "opacity-100 translate-y-0 block"
+                                            : "opacity-0 -translate-y-10 hidden"
+                                    )}
+                                >
+                                    {item.key}
+                                </h2>
+                                {finalResult.length > 1 && (
+                                    <button
+                                        className={classNames(
+                                            "text-3xl text-white z-30 disabled:opacity-60 disabled:cursor-not-allowed",
+                                            resultIndex === idx ? "block" : "hidden"
+                                        )}
+                                        disabled={resultIndex >= finalResult.length - 1}
+                                        onClick={() => setResultIndex(resultIndex + 1)}
+                                    >
+                                        {"→"}
+                                    </button>
+                                )}
+                            </div>
+                            <div
+                                className={classNames(
+                                    "text-center text-white font-light flex flex-col gap-2 items-center justify-center z-30 transition-all duration-300",
+                                    resultIndex === idx
+                                        ? "opacity-100 translate-y-0 block"
+                                        : "opacity-0 -translate-y-10 hidden"
+                                )}
+                                dangerouslySetInnerHTML={{ __html: warrior[item.key].description }}
+                            ></div>
+                        </Fragment>
+                    );
+                })}
 
-                <h5 className="tracking-widest mb-2 z-20">YOU ARE A:</h5>
-                <h2 className="font-semibold uppercase tracking-wider text-white z-20">{finalResult.key}</h2>
-                <div
-                    className="text-center text-white font-light flex flex-col gap-2 items-center justify-center z-20"
-                    dangerouslySetInnerHTML={{ __html: warrior[finalResult.key].description }}
-                ></div>
                 <button
                     onClick={() => {
                         setIndex(0);
@@ -90,7 +163,7 @@ const Quiz = () => {
                 </div>
                 <div className="w-full flex items-center justify-center"></div>
                 {completed ? (
-                    <div className="flex min-h-[80vh] items-center justify-center">
+                    <div className="flex min-h-[80vh] py-16 items-center justify-center">
                         <Result
                             answers={answers}
                             setAnswers={setAnswers}
@@ -104,6 +177,14 @@ const Quiz = () => {
                             {/* <div className="absolute -top-12 rounded-full bg-white w-20 h-20 pt-3 pb-2 flex items-center justify-center">
                             <h2 className="transition-all">#{index + 1}</h2>
                         </div> */}
+                            <div
+                                className={classNames(
+                                    "w-full h-full absolute z-20 flex items-center justify-center",
+                                    loading ? "bg-black" : "bg-black/40"
+                                )}
+                            >
+                                {loading && <LoadingIndicator className="!w-16 !h-16" />}
+                            </div>
 
                             <Image
                                 ref={imageRef}
@@ -112,11 +193,10 @@ const Quiz = () => {
                                 src={quiz[index].img}
                                 onLoad={() => setLoading(false)}
                             />
-                            <div className="bg-black/40 w-full h-full absolute z-10"></div>
 
                             <h2
                                 className={classNames(
-                                    "text-white text-lg md:text-2xl text-center z-20 transition-all duration-300 ",
+                                    "text-white text-lg md:text-2xl text-center z-30 transition-all duration-300 ",
                                     loading ? "opacity-0 mt-8" : "mt-0 opacity-100"
                                 )}
                             >
@@ -138,7 +218,7 @@ const Quiz = () => {
                                     answers[index] === answer
                                         ? "bg-white !text-black pt-4"
                                         : "bg-transparent text-white pt-0",
-                                    loading ? "text-opacity-0" : "text-opacity-100"
+                                    loading ? "!text-transparent pt-8" : "pt-0"
                                 )}
                             >
                                 {answer}
