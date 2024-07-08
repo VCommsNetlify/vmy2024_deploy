@@ -23,42 +23,72 @@ const Hero = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul className="navbar-nav">
-                        <li className="nav-item pr-3">
+                        <li
+                            className="nav-item pr-3"
+                            data-toggle="collapse"
+                            role="button"
+                            data-target="#navbarSupportedContent"
+                        >
                             <a className="nav-link " href="#">
                                 Home <span className="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li className="nav-item pr-3">
+                        <li
+                            className="nav-item pr-3"
+                            data-toggle="collapse"
+                            role="button"
+                            data-target="#navbarSupportedContent"
+                        >
                             <a className="nav-link" href="#merch-carousel">
                                 Merchandise
                             </a>
                         </li>
-                        <li className="nav-item pr-3">
+                        <li
+                            className="nav-item pr-3"
+                            data-toggle="collapse"
+                            role="button"
+                            data-target="#navbarSupportedContent"
+                        >
                             <a className="nav-link" href="#news-section">
                                 Events News and Updates
                             </a>
                         </li>
-                        <li className="nav-item pr-3">
+                        <li
+                            className="nav-item pr-3"
+                            data-toggle="collapse"
+                            role="button"
+                            data-target="#navbarSupportedContent"
+                        >
                             <a className="nav-link" href="#playlist-sec">
                                 Unstoppable Playlist
                             </a>
                         </li>
-                        <li className="nav-item pr-3">
+                        <li
+                            className="nav-item pr-3"
+                            data-toggle="collapse"
+                            role="button"
+                            data-target="#navbarSupportedContent"
+                        >
                             <a className="nav-link" href="#socials-sec">
                                 Channels
                             </a>
                         </li>
-                        <li className="nav-item pr-3">
-                            <a className="nav-link" href="#gallery-sec">
+                        <li className="nav-item pr-3" role="button" data-target="#navbarSupportedContent">
+                            <a className="nav-link" href="#gallery-sec" data-toggle="collapse">
                                 Gallery
                             </a>
                         </li>
                         <li className="nav-item pr-3">
-                            <a className="nav-link" href="#warrior-type">
+                            <a
+                                className="nav-link"
+                                href="#warrior-type"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent"
+                            >
                                 Warrior Type
                             </a>
                         </li>
-                        <li className="nav-item pr-3">
+                        <li className="nav-item pr-3" data-toggle="collapse" data-target="#navbarSupportedContent">
                             <a className="nav-link" href="#faqs-sec">
                                 FAQs
                             </a>
@@ -127,7 +157,7 @@ const Hero = () => {
                         <div className="row align-items-center feature-content">
                             <div className="col-12 d-flex justify-content-center align-items-center key-visual">
                                 <div className="unstoppable-kv">
-                                    <img src="assets/VMY-Sept-Logo.png" title="KV" alt="unstoppable-logo" />
+                                    <img src="assets/VMY-Sept-Logo.gif" title="KV" alt="unstoppable-logo" />
                                 </div>
                             </div>
                             <div className="col-12 d-flex justify-content-center feature-content">

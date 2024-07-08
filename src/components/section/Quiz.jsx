@@ -33,7 +33,8 @@ const getWarriorType = (answers) => {
 const Result = ({ answers, setCompleted, setAnswers, setIndex }) => {
     const [loading, setLoading] = useState(true);
     const [resultIndex, setResultIndex] = useState(0);
-    const finalResult = getWarriorType(answers);
+    let finalResult = getWarriorType(answers);
+    finalResult = [finalResult[Math.floor(Math.random() * finalResult.length)]];
 
     useEffect(() => {
         setTimeout(() => {
@@ -122,6 +123,21 @@ const Result = ({ answers, setCompleted, setAnswers, setIndex }) => {
                     );
                 })}
 
+                <div className="flex items-center justify-center gap-8 py-4 z-30">
+                    <a
+                        target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https://vmalaysia2024.the-v.net"
+                    >
+                        <img src="assets/3-Events-Gallery/4-Channels/FB-logo.png" className="w-12" alt="FB" />
+                    </a>
+                    <a
+                        target="_blank"
+                        href={`http://x.com/share?text=I just found out that my warrior type is %23${finalResult[0].key}. Find out your warrior type! %23vmalaysia2024&url=https://vmalaysia2024.the-v.net/`}
+                    >
+                        <img src="assets/3-Events-Gallery/4-Channels/X-logo.png" className="w-12" alt="X" />
+                    </a>
+                </div>
+
                 <button
                     onClick={() => {
                         setIndex(0);
@@ -154,38 +170,37 @@ const Quiz = () => {
             <div id="warrior-type" className="anchor"></div>
 
             <section id="warrior-type-section" className="warrior">
-                <div className="row warrior-container">
+                <div className="mx-auto container">
                     <img
                         src="assets/Headers/Warrior Type Header.png"
                         id="warrior-sec"
-                        className="warrior-title"
+                        className="w-full md:w-[60vw]"
                         alt="Gallery Header"
                     />
                 </div>
                 <div className="w-full flex items-center justify-center"></div>
 
                 {startScreen ? (
-                    <div className="flex min-h-[80vh] items-center py-4 md:py-16 justify-start text-white text-center flex-col gap-4">
+                    <div className="flex min-h-[80vh] px-4 items-center py-4 md:py-16 justify-start text-white text-center flex-col gap-4">
                         <h3>It is time to RISE AGAIN and show the world how unstoppable we are.</h3>
                         <h4>Take this quiz and discover what kind of warrior you are.</h4>
-                        <div className="flex items-center justify-center gap-8 py-4">
-                            <a href="https://www.facebook.com/thevofficial">
-                                <img src="assets/3-Events-Gallery/4-Channels/FB-logo.png" className="w-12" alt="FB" />
-                            </a>
-                            <a href="https://twitter.com/thev_official">
-                                <img src="assets/3-Events-Gallery/4-Channels/IG-logo.png" className="w-12" alt="IG" />
-                            </a>
-                            <a href="https://instagram.com/thev_official">
-                                <img src="assets/3-Events-Gallery/4-Channels/X-logo.png" className="w-12" alt="X" />
-                            </a>
-                        </div>
-
                         <button
                             onClick={() => setStartScreen(false)}
                             className="text-2xl transition-all duration-300 ease-in-out my-8 bg-[#4B69FF] disabled:bg-transparent disabled:cursor-not-allowed disabled:opacity-60  border-2 border-solid border-white uppercase text-white px-4 py-2 font-semibold"
                         >
                             Start!
                         </button>
+                        <div className="flex items-center justify-center gap-8 py-4">
+                            <a href="https://www.facebook.com/thevofficial">
+                                <img src="assets/3-Events-Gallery/4-Channels/FB-logo.png" className="w-12" alt="FB" />
+                            </a>
+                            <a href="https://instagram.com/thev_official">
+                                <img src="assets/3-Events-Gallery/4-Channels/IG-logo.png" className="w-12" alt="IG" />
+                            </a>
+                            <a href="https://twitter.com/thev_official">
+                                <img src="assets/3-Events-Gallery/4-Channels/X-logo.png" className="w-12" alt="X" />
+                            </a>
+                        </div>
                     </div>
                 ) : completed ? (
                     <div className="flex min-h-[80vh] py-16 items-center justify-center">
@@ -236,7 +251,11 @@ const Quiz = () => {
                                     let tempAnswers = [...answers];
                                     tempAnswers[index] = answer;
                                     setAnswers(tempAnswers);
-                                    if (index < quiz.length - 1) setIndex(index + 1);
+                                    if (index < quiz.length - 1) {
+                                        setIndex(index + 1);
+                                    } else {
+                                        setCompleted(true);
+                                    }
                                 }}
                                 className={classNames(
                                     "disabled:opacity-60 disabled:cursor-not-allowed transition-all ease-in-out duration-300 hover-hover:hover:!bg-white hover-hover:hover:!text-black  w-full sm:w-4/5 md:w-3/5 h-16 text-white p-4 border-solid border-2 border-white rounded-lg flex my-1 items-center justify-center",
@@ -263,7 +282,7 @@ const Quiz = () => {
                                 ></button>
                             ))}
                         </div>
-                        <div className="w-full flex items-center justify-center gap-2 py-4">
+                        {/* <div className="w-full flex items-center justify-center gap-2 py-4">
                             <button
                                 onClick={() => setCompleted(true)}
                                 disabled={answers.find((val) => val === "") !== undefined}
@@ -271,7 +290,7 @@ const Quiz = () => {
                             >
                                 Know what warrior you are
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                 )}
             </section>

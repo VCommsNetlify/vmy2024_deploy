@@ -3,10 +3,11 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import data from "../../../public/data/carousel.json";
+import mobileData from "../../../public/data/carousel-mobile.json";
 
 const CarouselItem = ({ img, idx }) => {
     return (
-        <div className="h-[60vh] md:h-[90vh] w-screen relative">
+        <div className="h-auto lg:h-[90vh] w-screen relative">
             <img className="object-cover h-full w-full " src={img} alt={`Slide ${idx + 1}`} />
         </div>
     );
@@ -27,22 +28,76 @@ const CarouselItem = ({ img, idx }) => {
 
 const Merch = () => {
     return (
-        <section className="max-h-[60vh] md:max-h-[90vh] h-full relative">
-            <div className="absolute w-full top-0 merch-accordion merch-gradient">
+        <section id="merch-carousel" className="max-h-[60vh] lg:max-h-[90vh] h-full relative">
+            <div className="absolute w-full top-0 merch-accordion merch-gradient pb-32 md:pb-64">
                 <h1 className="translate">YOUR UNSTOPPABLE STYLE</h1>
                 <p className="translate" data-key="merch-description">
                     Pursuing greatness comes with great style. Check out this unstoppable merchandise collection soon
                     available at the Limitless Store.
                 </p>
             </div>
-
             <Carousel
                 additionalTransform={0}
                 arrows
                 autoPlay
                 autoPlaySpeed={4000}
                 centerMode={false}
-                className="h-[60vh] md:h-[90vh]"
+                className="h-auto block lg:hidden lg:h-[90vh]"
+                containerClass=""
+                dotListClass=""
+                draggable
+                focusOnSelect={false}
+                infinite
+                itemClass=""
+                keyBoardControl
+                minimumTouchDrag={80}
+                pauseOnHover
+                renderArrowsWhenDisabled={false}
+                renderButtonGroupOutside={false}
+                renderDotsOutside={false}
+                responsive={{
+                    desktop: {
+                        breakpoint: {
+                            max: 3000,
+                            min: 1024,
+                        },
+                        items: 0,
+                    },
+                    mobile: {
+                        breakpoint: {
+                            max: 464,
+                            min: 0,
+                        },
+                        items: 1,
+                    },
+                    tablet: {
+                        breakpoint: {
+                            max: 1024,
+                            min: 464,
+                        },
+                        items: 1,
+                    },
+                }}
+                rewind={true}
+                rewindWithAnimation={true}
+                rtl={false}
+                shouldResetAutoplay
+                showDots
+                sliderClass=""
+                slidesToSlide={1}
+                swipeable
+            >
+                {mobileData.map((item, idx) => (
+                    <CarouselItem key={idx} idx={idx} {...item} />
+                ))}
+            </Carousel>
+            <Carousel
+                additionalTransform={0}
+                arrows
+                autoPlay
+                autoPlaySpeed={4000}
+                centerMode={false}
+                className="h-auto hidden lg:block lg:h-[90vh] lg:max-h-[90vh]"
                 containerClass=""
                 dotListClass=""
                 draggable
@@ -68,14 +123,14 @@ const Merch = () => {
                             max: 464,
                             min: 0,
                         },
-                        items: 1,
+                        items: 0,
                     },
                     tablet: {
                         breakpoint: {
                             max: 1024,
                             min: 464,
                         },
-                        items: 1,
+                        items: 0,
                     },
                 }}
                 rewind={true}

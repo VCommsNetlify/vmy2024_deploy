@@ -22,7 +22,7 @@ const Footer = () => {
                                     Like.Tag.Share
                                 </p>
                             </div>
-                            <div className="socials-icons-2">
+                            <div className="socials-icons-2 gap-1 md:justify-start justify-center w-full">
                                 <a href="https://www.facebook.com/thevofficial">
                                     <i className="fa-brands fa-facebook"></i>
                                 </a>

@@ -5,15 +5,13 @@ const Gallery = () => {
         <>
             <div id="gallery-sec" className="anchor"></div>
             <section id="gallery-section" className="gallery">
-                <div className="row">
-                    <div className="col-12 gallery-section-title">
-                        <img
-                            src="assets/Headers/Gallery Header.png"
-                            id="gal-sec"
-                            className="gallery-title"
-                            alt="Gallery Header"
-                        />
-                    </div>
+                <div className="container mx-auto mb-4">
+                    <img
+                        src="assets/Headers/Gallery Header.png"
+                        id="gal-sec"
+                        className="w-full md:w-[60vw]"
+                        alt="Gallery Header"
+                    />
                 </div>
                 <div className="row galleries">
                     <div className="col-lg-8 col-md-8 col-sm-8">

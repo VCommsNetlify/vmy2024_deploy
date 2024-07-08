@@ -1,17 +1,35 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import data from "../../../public/data/playlist.json";
 import classNames from "classnames";
 
-const VideoThumbnail = ({ video, thumbnail, vidIdx, idx, setVidIdx }) => (
-    <button className={classNames("select-video", idx === vidIdx && "active")} onClick={() => setVidIdx(idx)}>
-        <img src={thumbnail} alt="video" />
-    </button>
-);
+const VideoThumbnail = ({ video, thumbnail, vidIdx, idx, setVidIdx, imagesRef }) => {
+    return (
+        <button
+            ref={(el) => (imagesRef.current[idx] = el)}
+            className={classNames("select-video", idx === vidIdx && "active border-4 border-solid border-white")}
+            onClick={() => {
+                setVidIdx(idx);
+                imagesRef.current[idx].scrollIntoView({
+                    behavior: "smooth",
+                    block: "nearest",
+                    inline: "center",
+                });
+            }}
+        >
+            <img
+                src={thumbnail}
+                alt="video"
+                className={classNames(idx === vidIdx && "active border-8 border-solid border-white rounded-sm")}
+            />
+        </button>
+    );
+};
 
 const Playlist = () => {
     const [vidIdx, setVidIdx] = useState(0);
+    const imagesRef = useRef(Array(data.length).fill(null));
 
     return (
         <>
@@ -43,7 +61,14 @@ const Playlist = () => {
                                 <button
                                     id="prevButton"
                                     className="playlist-prev-icon disabled:cursor-not-allowed disabled:opacity-60"
-                                    onClick={() => setVidIdx(vidIdx - 1)}
+                                    onClick={() => {
+                                        setVidIdx(vidIdx - 1);
+                                        imagesRef.current[vidIdx - 1].scrollIntoView({
+                                            behavior: "smooth",
+                                            block: "nearest",
+                                            inline: "center",
+                                        });
+                                    }}
                                     disabled={vidIdx === 0}
                                 >
                                     <img
@@ -56,6 +81,7 @@ const Playlist = () => {
                                         {data.map((vid, idx) => (
                                             <VideoThumbnail
                                                 {...vid}
+                                                imagesRef={imagesRef}
                                                 key={idx}
                                                 idx={idx}
                                                 vidIdx={vidIdx}
@@ -67,7 +93,14 @@ const Playlist = () => {
                                 <button
                                     id="nextButton"
                                     className="playlist-next-icon disabled:cursor-not-allowed disabled:opacity-60"
-                                    onClick={() => setVidIdx(vidIdx + 1)}
+                                    onClick={() => {
+                                        setVidIdx(vidIdx + 1);
+                                        imagesRef.current[vidIdx + 1].scrollIntoView({
+                                            behavior: "smooth",
+                                            block: "nearest",
+                                            inline: "center",
+                                        });
+                                    }}
                                     disabled={vidIdx >= data.length - 1}
                                 >
                                     <img

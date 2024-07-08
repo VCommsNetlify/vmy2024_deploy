@@ -27,10 +27,10 @@ const Channels = () => {
                     <a href="https://www.facebook.com/thevofficial">
                         <img src="assets/3-Events-Gallery/4-Channels/FB-logo.png" alt="FB" />
                     </a>
-                    <a href="https://twitter.com/thev_official">
+                    <a href="https://instagram.com/thev_official">
                         <img src="assets/3-Events-Gallery/4-Channels/IG-logo.png" alt="IG" />
                     </a>
-                    <a href="https://instagram.com/thev_official">
+                    <a href="https://twitter.com/thev_official">
                         <img src="assets/3-Events-Gallery/4-Channels/X-logo.png" alt="X" />
                     </a>
                 </div>

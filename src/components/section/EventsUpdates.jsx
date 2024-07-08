@@ -40,7 +40,7 @@ const EventsUpdates = () => {
                             <img src={data.featured.img} alt="image" className="w-full" />
                         </a>
                         <h4 className="text-lg md:text-xl mt-2 text-white font-semibold">{data.featured.title}</h4>
-                        <p className="text-sm text-white">
+                        <p className="text-sm text-white block w-full text-center">
                             CHECK OUT THE FULL STORY!{" "}
                             <a href={data.featured.articleLink} target="_blank" className="text-white underline">
                                 READ MORE!
