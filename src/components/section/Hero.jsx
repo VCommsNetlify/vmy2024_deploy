@@ -73,18 +73,23 @@ const Hero = () => {
                                 Channels
                             </a>
                         </li>
-                        <li className="nav-item pr-3" role="button" data-target="#navbarSupportedContent">
-                            <a className="nav-link" href="#gallery-sec" data-toggle="collapse">
+                        <li
+                            className="nav-item pr-3"
+                            data-toggle="collapse"
+                            role="button"
+                            data-target="#navbarSupportedContent"
+                        >
+                            <a className="nav-link" href="#gallery-sec">
                                 Gallery
                             </a>
                         </li>
-                        <li className="nav-item pr-3">
-                            <a
-                                className="nav-link"
-                                href="#warrior-type"
-                                data-toggle="collapse"
-                                data-target="#navbarSupportedContent"
-                            >
+                        <li
+                            className="nav-item pr-3"
+                            data-toggle="collapse"
+                            role="button"
+                            data-target="#navbarSupportedContent"
+                        >
+                            <a className="nav-link" href="#warrior-type">
                                 Warrior Type
                             </a>
                         </li>

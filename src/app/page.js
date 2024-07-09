@@ -7,6 +7,7 @@ import Hero from "@/components/section/Hero";
 import Merch from "@/components/section/Merch";
 import Playlist from "@/components/section/Playlist";
 import Quiz from "@/components/section/Quiz";
+import { Suspense } from "react";
 
 export default function Home() {
     return (
@@ -23,7 +24,9 @@ export default function Home() {
                 <Playlist />
                 <Channels />
                 <Gallery />
-                <Quiz />
+                <Suspense>
+                    <Quiz />
+                </Suspense>
             </section>
             <FAQ />
             <Footer />

@@ -6,6 +6,8 @@ import result from "../../../public/data/result.json";
 import Image from "next/image";
 import LoadingIndicator from "../Loading";
 import warrior from "../../../public/data/warrior.json";
+import { useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const getWarriorType = (answers) => {
     let highest = null;
@@ -30,11 +32,13 @@ const getWarriorType = (answers) => {
     return highest;
 };
 
-const Result = ({ answers, setCompleted, setAnswers, setIndex }) => {
+const Result = ({ answers, setCompleted, setAnswers, setIndex, resultPreview }) => {
     const [loading, setLoading] = useState(true);
     const [resultIndex, setResultIndex] = useState(0);
     let finalResult = getWarriorType(answers);
     finalResult = [finalResult[Math.floor(Math.random() * finalResult.length)]];
+
+    if (resultPreview) finalResult = [{ key: resultPreview, value: 100 }];
 
     useEffect(() => {
         setTimeout(() => {
@@ -126,13 +130,13 @@ const Result = ({ answers, setCompleted, setAnswers, setIndex }) => {
                 <div className="flex items-center justify-center gap-8 py-4 z-30">
                     <a
                         target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https://vmalaysia2024.the-v.net"
+                        href={`https://www.facebook.com/sharer/sharer.php?u=${window.location.origin}/?result=${finalResult[0].key}%23warrior-type`}
                     >
                         <img src="assets/3-Events-Gallery/4-Channels/FB-logo.png" className="w-12" alt="FB" />
                     </a>
                     <a
                         target="_blank"
-                        href={`http://x.com/share?text=I just found out that my warrior type is %23${finalResult[0].key}. Find out your warrior type! %23vmalaysia2024&url=https://vmalaysia2024.the-v.net/`}
+                        href={`http://x.com/share?text=I just found out that my warrior type is %23${finalResult[0].key}. Find out your warrior type! %23vmalaysia2024&url=${window.location.origin}/?result=${finalResult[0].key}%23warrior-type`}
                     >
                         <img src="assets/3-Events-Gallery/4-Channels/X-logo.png" className="w-12" alt="X" />
                     </a>
@@ -146,20 +150,31 @@ const Result = ({ answers, setCompleted, setAnswers, setIndex }) => {
                     }}
                     className="z-20 border-solid border border-white rounded-md uppercase tracking-wide bg-white transition-all duration-300  hover-hover:hover:!bg-transparent hover-hover:hover:!text-white px-4 py-2"
                 >
-                    Try again?
+                    {resultPreview ? "Try it Yourself?" : "Try again?"}
                 </button>
             </div>
         </div>
     );
 };
 
-const Quiz = () => {
+const Quiz = ({}) => {
+    const router = useRouter();
+    const searchParams = useSearchParams();
+
+    console.log(searchParams.get("result"));
     const imageRef = useRef(null);
     const [loading, setLoading] = useState(false);
     const [index, setIndex] = useState(0);
     const [answers, setAnswers] = useState(quiz.map(() => ""));
     const [completed, setCompleted] = useState(false);
     const [startScreen, setStartScreen] = useState(true);
+
+    useEffect(() => {
+        if (searchParams.get("result")) {
+            setStartScreen(false);
+            setCompleted(true);
+        }
+    }, []);
 
     useEffect(() => {
         setLoading(true);
@@ -209,6 +224,7 @@ const Quiz = () => {
                             setAnswers={setAnswers}
                             setCompleted={setCompleted}
                             setIndex={setIndex}
+                            resultPreview={searchParams.get("result")}
                         />
                     </div>
                 ) : (
@@ -255,6 +271,7 @@ const Quiz = () => {
                                         setIndex(index + 1);
                                     } else {
                                         setCompleted(true);
+                                        router.push("?#warrior-type");
                                     }
                                 }}
                                 className={classNames(
