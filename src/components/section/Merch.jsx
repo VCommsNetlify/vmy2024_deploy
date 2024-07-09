@@ -28,7 +28,7 @@ const CarouselItem = ({ img, idx }) => {
 
 const Merch = () => {
     return (
-        <section id="merch-carousel" className="max-h-[60vh] lg:max-h-[90vh] h-full relative">
+        <section id="merch-carousel" className="max-h-auto lg:max-h-[90vh] h-full relative">
             <div className="absolute w-full top-0 merch-accordion merch-gradient pb-32 md:pb-64">
                 <h1 className="translate">BE UNSTOPPABLE WITH STYLE</h1>
                 <p className="translate" data-key="merch-description">

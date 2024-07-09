@@ -160,8 +160,6 @@ const Result = ({ answers, setCompleted, setAnswers, setIndex, resultPreview }) 
 const Quiz = ({}) => {
     const router = useRouter();
     const searchParams = useSearchParams();
-
-    console.log(searchParams.get("result"));
     const imageRef = useRef(null);
     const [loading, setLoading] = useState(false);
     const [index, setIndex] = useState(0);
