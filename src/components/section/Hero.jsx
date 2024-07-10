@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 import 'i18n';
 
 const Hero = () => {
+    const { t } = useTranslation();
+    
     return (
         <section className="col-12 container-fluid featured-section">
             <nav
