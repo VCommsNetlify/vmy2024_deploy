@@ -114,7 +114,7 @@ const Hero = () => {
                                 <a className="dropdown-item" href="#">
                                     English
                                 </a>
-                                <a className="dropdown-item" href="ar.html">
+                                <a className="dropdown-item" href="public/js/ar.html">
                                     العربية
                                 </a>
                                 <a className="dropdown-item" href="#">
