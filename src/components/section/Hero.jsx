@@ -100,7 +100,7 @@ const Hero = () => {
                         </li>
                         <li className="nav-item dropdown pr-5 disabled">
                             <a
-                                className="nav-link dropdown-toggle"
+                                className="nav-link dropdown-toggle disabled"
                                 href="#"
                                 id="navbarDropdown"
                                 role="button"
@@ -110,7 +110,7 @@ const Hero = () => {
                             >
                                 Languages
                             </a>
-                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div className="dropdown-menu disabled" aria-labelledby="navbarDropdown">
                                 <a className="dropdown-item" href="#">
                                     English
                                 </a>
