@@ -22,4 +22,15 @@ i18n
     },
   });
 
+//RTL for Arabic
+i18n.on('languageChanged', (lng) => {
+  if (lng === 'ar') {
+    document.documentElement.dir = 'rtl';
+    import('./rtl.css');
+  } else {
+    document.documentElement.dir = 'ltr';
+  }
+  
+});
+
 export default i18n;
