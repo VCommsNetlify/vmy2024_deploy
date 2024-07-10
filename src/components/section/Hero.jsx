@@ -98,7 +98,7 @@ const Hero = () => {
                                 FAQs
                             </a>
                         </li>
-                        <li className="nav-item dropdown pr-5 disabled">
+                        <!-- <li className="nav-item dropdown pr-5 disabled">
                             <a
                                 className="nav-link dropdown-toggle disabled"
                                 href="#"
@@ -139,7 +139,7 @@ const Hero = () => {
                                     tiếng Việt
                                 </a>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </nav>
