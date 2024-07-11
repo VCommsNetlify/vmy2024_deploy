@@ -1,11 +1,16 @@
 {
     "featured": {
-        "title": "#VMalaysia2024 Service Above Self",
-        "articleLink": "https://the-v.net/en/news?id=07082024-vmalaysia2024-service-above-self",
-        "img": "assets/3-Events-Gallery/3-News/07082024-vmalaysia2024-service-above-self9d872094-dc69-4dc3-8c6a-5e304496e062.png"
+        "title": "Be Unstoppable With Style",
+        "articleLink": "https://the-v.net/en/news?id=07112024-be-unstoppable-with-style",
+        "img": "assets/3-Events-Gallery/3-News/07112024-be-unstoppable-with-style.png"
     },
 
     "others": [
+        {
+            "articleLink": "https://the-v.net/en/news?id=07082024-vmalaysia2024-service-above-self",
+            "img": "assets/3-Events-Gallery/3-News/07082024-vmalaysia2024-service-above-self9d872094-dc69-4dc3-8c6a-5e304496e062.png",
+            "title": "#VMalaysia2024 Service Above Self"
+        },
         {
             "articleLink": "https://the-v.net/en/news?id=07012024-vmalaysia2024-our-logo-our-story-our-identity",
             "img": "assets/3-Events-Gallery/3-News/07012024-vmalaysia2024-our-logo-our-story-our-identitye3771229-72ea-4f33-8e15-57159ac7a871.png",
