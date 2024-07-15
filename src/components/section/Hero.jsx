@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import 'src/app/i18n.js';
+import '@app/i18n';
 
 const Hero = () => {
     const { t } = useTranslation();
