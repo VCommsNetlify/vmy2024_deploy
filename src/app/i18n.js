@@ -15,22 +15,21 @@ i18n
       caches: ['cookie'],
     },
     backend: {
-      loadPath: 'locales/{{lng}}/translation.json',
+      loadPath: '/locales/{{lng}}/translation.json',
     },
     react: {
       useSuspense: false,
     },
   });
 
-//RTL for Arabic
+// Apply RTL styles if the language is Arabic
 i18n.on('languageChanged', (lng) => {
   if (lng === 'ar') {
     document.documentElement.dir = 'rtl';
-    import('./rtl.css');
+    import('../styles/rtl.css'); // Ensure this path is correct
   } else {
     document.documentElement.dir = 'ltr';
   }
-  
 });
 
 export default i18n;
