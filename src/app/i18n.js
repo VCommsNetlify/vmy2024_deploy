@@ -26,7 +26,7 @@ i18n
 i18n.on('languageChanged', (lng) => {
   if (lng === 'ar') {
     document.documentElement.dir = 'rtl';
-    import('../styles/rtl.css'); // Ensure this path is correct
+    import('src/app/rtl.css'); // Ensure this path is correct
   } else {
     document.documentElement.dir = 'ltr';
   }
