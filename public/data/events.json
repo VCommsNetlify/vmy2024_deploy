@@ -1,11 +1,16 @@
 {
     "featured": {
-        "title": "Be Unstoppable With Style",
-        "articleLink": "https://the-v.net/en/news?id=07112024-be-unstoppable-with-style",
-        "img": "assets/3-Events-Gallery/3-News/07112024-be-unstoppable-with-style.png"
+        "title": "#VMalaysia2024: Here’s to September to Remember with V-Kids and V-Teens!",
+        "articleLink": "https://the-v.net/en/news?id=07152024-vmalaysia2024-heres-to-september-to-remember-with-v-kids-and-v-teens",
+        "img": "assets/3-Events-Gallery/3-News/07152024-vmalaysia2024-heres-to-september-to-remember-with-v-kids-and-v-teens.jpg"
     },
 
     "others": [
+        {
+            "title": "Be Unstoppable With Style",
+            "articleLink": "https://the-v.net/en/news?id=07112024-be-unstoppable-with-style",
+            "img": "assets/3-Events-Gallery/3-News/07112024-be-unstoppable-with-style.png"
+        },
         {
             "articleLink": "https://the-v.net/en/news?id=07082024-vmalaysia2024-service-above-self",
             "img": "assets/3-Events-Gallery/3-News/07082024-vmalaysia2024-service-above-self9d872094-dc69-4dc3-8c6a-5e304496e062.png",
