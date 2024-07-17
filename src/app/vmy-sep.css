@@ -539,17 +539,17 @@ button {
 
 .playlist-selector {
     display: flex;
-    flex-wrap: nowrap; /* Keep this to prevent wrapping */
-    width: 100%; /* Or a specific width if you prefer */
-    max-width: 1000px; /* Ensure it doesn't exceed the parent width */
+    flex-wrap: nowrap; 
+    width: 100%; 
+    max-width: 1000px; 
     height: auto;
     padding: 0 50px;
-    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-x: auto;
     border-radius: 10px;
 }
 
 .playlist-selector button {
-    flex-shrink: 0; /* Prevent buttons from shrinking */
+    flex-shrink: 0; 
     width: 15em;
     height: auto;
     border: none;
