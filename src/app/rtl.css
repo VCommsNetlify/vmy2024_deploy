@@ -2,6 +2,11 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
 @tailwind utilities;
 
+body, html {
+    direction: rtl;
+    text-align: right;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -127,7 +132,7 @@ button {
 }
 
 /*---------------------------------
-     FEATURED SECTION ASSETS
+	FEATURED SECTION ASSETS
 ---------------------------------*/
 
 .feature-left-assets {
@@ -244,12 +249,6 @@ button {
     .starfall {
         width: 100vw !important;
         height: 350px;
-    }
-
-    .reflection {
-	left: 0!important;
-	right: 0!important;
-	width: 400px!important;
     }
 
     .mountain-left .mountain-right {
@@ -545,17 +544,17 @@ button {
 
 .playlist-selector {
     display: flex;
-    flex-wrap: nowrap; 
-    width: 100%; 
-    max-width: 1000px; 
+    flex-wrap: nowrap; /* Keep this to prevent wrapping */
+    width: 100%; /* Or a specific width if you prefer */
+    max-width: 1000px; /* Ensure it doesn't exceed the parent width */
     height: auto;
     padding: 0 50px;
-    overflow-x: auto;
+    overflow-x: auto; /* Enable horizontal scrolling */
     border-radius: 10px;
 }
 
 .playlist-selector button {
-    flex-shrink: 0; 
+    flex-shrink: 0; /* Prevent buttons from shrinking */
     width: 15em;
     height: auto;
     border: none;
