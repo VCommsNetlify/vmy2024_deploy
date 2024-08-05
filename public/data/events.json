@@ -1,11 +1,16 @@
 {
     "featured": {
+        "title": "#VMalaysia2024 Parade of Colours",
+        "articleLink": "https://the-v.net/en/news?id=08052024-vmalaysia2024-parade-of-colours",
+        "img": "assets/3-Events-Gallery/3-News/08052024-vmalaysia2024-parade-of-coloursfdf42094-5738-421e-ad3e-7117df5c4430.jpg"
+    },
+
+    "others": [
+        {
         "title": "VP Ferdie Tolentino Invites You to V-Malaysia 2024 this September!",
         "articleLink": "https://the-v.net/en/news?id=08022024-vp-ferdie-tolentino-invites-you-to-v-malaysia-2024-this-september",
         "img": "assets/3-Events-Gallery/3-News/08052024-vp-david-sharma-invites-you-to-v-malaysia-2024-this-september83d11049-471e-4517-992b-c957256c3df4.png"
     },
-
-    "others": [
         {
         "title": "VP David Sharma Invites You to V-Malaysia 2024 this September!",
         "articleLink": "https://the-v.net/en/news?id=08052024-vp-david-sharma-invites-you-to-v-malaysia-2024-this-september",
