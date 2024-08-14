@@ -205,7 +205,7 @@ const Hero = () => {
                                                 join us for a greater V-MALAYSIA 2024 like you{"'"}ve never seen before.
                                             </p>
                                             <button className="feature-button" data-key="feature-button">
-                                                <a href="https://vshoppe.vtube.net/Buy">Get your tickets on VShoppe!</a>
+                                                <a href="https://vshoppe.vtube.net/">Get your tickets on VShoppe!</a>
                                             </button>
                                         </div>
                                     </div>
