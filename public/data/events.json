@@ -1,11 +1,16 @@
 {
     "featured": {
+        "title": "#VMalaysia2024 Registration Day: Welcome Home!",
+        "articleLink": "https://the-v.net/en/news?id=09122024-vmalaysia2024-registration-day-welcome-home",
+        "img": "assets/3-Events-Gallery/3-News/09122024-vmalaysia2024-registration-day-welcome-home2a6b3044-377d-4960-acdd-b4d34f300dad.jpg"
+    },
+
+    "others": [
+        {
         "title": "#VMalaysia2024 Mission Unstoppable Continues",
         "articleLink": "https://the-v.net/en/news?id=09092024-vmalaysia2024-mission-unstoppable-continues",
         "img": "assets/3-Events-Gallery/3-News/09092024-vmalaysia2024-mission-unstoppable-continues9e043f4d-a189-45d1-b793-8f91e69058b9.png"
     },
-
-    "others": [
         {
         "title": "#VMalaysia2024 Welcome to V-Convention… Welcome Home!",
         "articleLink": "https://the-v.net/en/news?id=09032024-vmalaysia2024-welcome-to-v-convention-welcome-home",
