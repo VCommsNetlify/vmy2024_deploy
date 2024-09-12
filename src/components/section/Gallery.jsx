@@ -17,16 +17,16 @@ const Gallery = () => {
                     <div className="col-lg-8 col-md-8 col-sm-8">
                         <div className="col-lg-4 col-md-4 col-sm-4 photo-album h-[200px] sm:h-auto relative">
                             <a
-                                href="https://the-v.net/en/album/vmalaysia2024-registration-day-v-limitless"
+                                href="https://the-v.net/en/album/vmalaysia2024-september-day-0-registration-day-gallery-v-limitless"
                                 className="w-full h-full block relative"
                             >
                                 <img
-                                    src="assets/3-Events-Gallery/2-Gallery-Image/Reg Day/051124-VMY2024 - Reg Day.jpeg"
+                                    src="assets/3-Events-Gallery/2-Gallery-Image/Reg Day/8.jpg"
                                     alt="Photo 1"
                                     className="w-full h-full object-cover"
                                 />
                             </a>
-                            <div className="caption-img">VMalaysia 2024 - May 12-16 - Reg Day </div>
+                            <div className="caption-img">#VMalaysia2024 September: Day 0 Registration Day Gallery</div>
                         </div>
                         <div className="col-lg-2 col-md-2 col-sm-2 photo-album h-[200px] sm:h-auto">
                             <a
