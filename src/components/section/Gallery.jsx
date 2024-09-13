@@ -30,16 +30,16 @@ const Gallery = () => {
                         </div>
                         <div className="col-lg-2 col-md-2 col-sm-2 photo-album h-[200px] sm:h-auto">
                             <a
-                                href="https://the-v.net/en/album/vmalaysia2024-day-1-gallery"
+                                href="https://the-v.net/en/album/vmalaysia2024-september-day-1-gallery-v-limitless"
                                 className="w-full h-full block relative"
                             >
                                 <img
                                     className="w-full h-full object-cover"
-                                    src="assets/3-Events-Gallery/2-Gallery-Image/Day 1/78.jpg"
+                                    src="assets/3-Events-Gallery/2-Gallery-Image/Day 1/48.jpg"
                                     alt="Photo 2"
                                 />
                             </a>
-                            <div className="caption-img">VMalaysia 2024 - May 12-16 - Day 1</div>
+                            <div className="caption-img">#VMalaysia2024 September: Day 1 Gallery</div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-4 photo-album h-[200px] md:h-auto">
                             <a
