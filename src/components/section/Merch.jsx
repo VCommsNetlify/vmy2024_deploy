@@ -7,7 +7,7 @@ import mobileData from "../../../public/data/carousel-mobile.json";
 
 const CarouselItem = ({ img, idx }) => {
     return (
-        <div className="h-auto lg:h-[90vh] w-screen relative">
+        <div className="h-auto  w-screen relative">
             <img className="object-cover h-full w-full " src={img} alt={`Slide ${idx + 1}`} />
         </div>
     );
@@ -28,7 +28,7 @@ const CarouselItem = ({ img, idx }) => {
 
 const Merch = () => {
     return (
-        <section id="merch-carousel" className="max-h-auto lg:max-h-[90vh] h-full relative">
+        <section id="merch-carousel" className="max-h-auto  h-full relative">
             <div className="absolute w-full top-0 merch-accordion merch-gradient pb-32 md:pb-64">
                 <h1 className="translate">BE UNSTOPPABLE WITH STYLE</h1>
                 <p className="translate" data-key="merch-description">
@@ -42,7 +42,7 @@ const Merch = () => {
                 autoPlay
                 autoPlaySpeed={4000}
                 centerMode={false}
-                className="h-auto block lg:hidden lg:h-[90vh]"
+                className="h-auto block lg:hidden "
                 containerClass=""
                 dotListClass=""
                 draggable
@@ -97,7 +97,7 @@ const Merch = () => {
                 autoPlay
                 autoPlaySpeed={4000}
                 centerMode={false}
-                className="h-auto hidden lg:block lg:h-[90vh] lg:max-h-[90vh]"
+                className="h-auto hidden lg:block"
                 containerClass=""
                 dotListClass=""
                 draggable

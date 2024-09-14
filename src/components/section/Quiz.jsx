@@ -34,6 +34,8 @@ const getWarriorType = (answers) => {
 
 const Result = ({ answers, setCompleted, setAnswers, setIndex, resultPreview }) => {
     const [loading, setLoading] = useState(true);
+    const router = useRouter();
+    const searchParams = useSearchParams();
     const [resultIndex, setResultIndex] = useState(0);
     let finalResult = getWarriorType(answers);
     finalResult = [finalResult[Math.floor(Math.random() * finalResult.length)]];
@@ -45,6 +47,10 @@ const Result = ({ answers, setCompleted, setAnswers, setIndex, resultPreview }) 
             setLoading(false);
         }, 2000);
     }, []);
+
+    useEffect(() => {
+        if (searchParams.get("result")) router.push("#warrior-type");
+    }, [searchParams]);
 
     if (loading) return <LoadingIndicator className="!h-32 !w-32 text-white" />;
 
@@ -130,7 +136,7 @@ const Result = ({ answers, setCompleted, setAnswers, setIndex, resultPreview }) 
                 <div className="flex items-center justify-center gap-8 py-4 z-30">
                     <a
                         target="_blank"
-                        href={`https://www.facebook.com/sharer/sharer.php?u=${window.location.origin}/?result=${finalResult[0].key}%23warrior-type`}
+                        href={`https://www.facebook.com/sharer/sharer.php?u=${window.location.origin}/?result=${finalResult[0].key}&hashtag=%23${finalResult[0].key}`}
                     >
                         <img src="assets/3-Events-Gallery/4-Channels/FB-logo.png" className="w-12" alt="FB" />
                     </a>

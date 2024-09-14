@@ -127,7 +127,7 @@ button {
 }
 
 /*---------------------------------
-	FEATURED SECTION ASSETS
+     FEATURED SECTION ASSETS
 ---------------------------------*/
 
 .feature-left-assets {
@@ -244,6 +244,12 @@ button {
     .starfall {
         width: 100vw !important;
         height: 350px;
+    }
+
+    .reflection {
+	left: 0!important;
+	right: 0!important;
+	width: 400px!important;
     }
 
     .mountain-left .mountain-right {
