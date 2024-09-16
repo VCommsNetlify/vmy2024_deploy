@@ -1,6 +1,7 @@
 [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "video": "https://players.brightcove.net/3745659807001/4JJdlFXsg_default/index.html?videoId=6361721557112",
         "thumbnail": "assets/3-Events-Gallery/3-News/09092024-vmalaysia2024-mission-unstoppable-continues9e043f4d-a189-45d1-b793-8f91e69058b9.png"
     },
@@ -133,6 +134,8 @@
         "thumbnail": "assets/3-Events-Gallery/3-News/07112024-be-unstoppable-with-style.png"
     },
     {
+=======
+>>>>>>> parent of 9c78bf2 (Merge branch 'main' into version/july-2024)
 =======
 >>>>>>> parent of 9c78bf2 (Merge branch 'main' into version/july-2024)
         "video": "https://players.brightcove.net/3745659807001/4JJdlFXsg_default/index.html?videoId=6356118954112",

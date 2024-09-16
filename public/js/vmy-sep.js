@@ -2,7 +2,7 @@
 //         COUNTDOWN         //
 //---------------------------//
 // Countdown Timer target date to Sep 12, 2024
-const targetDate = new Date("September 12, 2024 00:00:00").getTime();
+const targetDate = new Date("September 11, 2024 00:00:00").getTime();
 
 // Updating timer every second
 const timer = setInterval(function () {

@@ -102,9 +102,9 @@ const Hero = () => {
                                 FAQs
                             </a>
                         </li>
-                        {/*<li className="nav-item dropdown pr-5 disabled">
+                        <li className="nav-item dropdown pr-5">
                             <a
-                                className="nav-link dropdown-toggle disabled"
+                                className="nav-link dropdown-toggle"
                                 href="#"
                                 id="navbarDropdown"
                                 role="button"
@@ -114,7 +114,7 @@ const Hero = () => {
                             >
                                 Languages
                             </a>
-                            <div className="dropdown-menu disabled" aria-labelledby="navbarDropdown">
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a className="dropdown-item" href="#">
                                     English
                                 </a>
@@ -143,7 +143,7 @@ const Hero = () => {
                                     tiếng Việt
                                 </a>
                             </div>
-                        </li>*/}
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -209,7 +209,7 @@ const Hero = () => {
                                                 join us for a greater V-MALAYSIA 2024 like you{"'"}ve never seen before.
                                             </p>
                                             <button className="feature-button" data-key="feature-button">
-                                                <a href="https://vshoppe.vtube.net/">Get your tickets on VShoppe!</a>
+                                                <a href="https://vshoppe.vtube.net/Buy">Get your tickets on VShoppe!</a>
                                             </button>
                                         </div>
                                     </div>
