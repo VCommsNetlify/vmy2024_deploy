@@ -1,11 +1,21 @@
 {
     "featured": {
+        "title": "V-Malaysia 2024 Day 1: Your Journey Begins at V-Convention by Dato Sri Vijay Eswaran",
+        "articleLink": "https://the-v.net/en/news?id=09152024-v-malaysia-2024-day-1-your-journey-begins-at-v-convention-by-dato-sri-vijay-eswaran",
+        "img": "assets/3-Events-Gallery/3-News/09152024-v-malaysia-2024-day-1-your-journey-begins-at-v-convention-by-dato-sri-vijay-eswaran6c61d30e-f41b-4f33-9e70-520aab0bd81.jpg"
+    },
+
+    "others": [
+        {
+        "title": "#VMalaysia2024 Highlights Day 2: The Unstoppable Magic Continues!",
+        "articleLink": "https://the-v.net/en/news?id=09152024-vmalaysia2024-highlights-day-2-the-unstoppable-magic-continues",
+        "img": "assets/3-Events-Gallery/3-News/09152024-vmalaysia2024-highlights-day-2-the-unstoppable-magic-continues-140daf598-f118-4e1b-8758-b707f5f4cce9.jpg"
+    },
+        {
         "title": "#VMalaysia2024 Highlights DAY 1: Get Ready to be UNSTOPPABLE!",
         "articleLink": "https://the-v.net/en/news?id=09142024-vmalaysia2024-highlights-day-1-get-ready-to-be-unstoppable",
         "img": "assets/3-Events-Gallery/3-News/09142024-vmalaysia2024-highlights-day-1-get-ready-to-be-unstoppable21b39174-b9f0-488e-bfd3-4f80eddd5de6.jpg"
     },
-
-    "others": [
         {
         "title": "#VMalaysia2024 DAY 1: Your Unstoppable Journey Begins",
         "articleLink": "https://the-v.net/en/news?id=09132024-vmalaysia2024-day-1-your-unstoppable-journey-begins",
