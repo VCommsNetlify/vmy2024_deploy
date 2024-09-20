@@ -1,11 +1,31 @@
 {
     "featured": {
+        "title": "#VMalaysia2024 DAY 2: Find Your Dream, Be UNSTOPPABLE!",
+        "articleLink": "https://the-v.net/en/news?id=09152024-vmalaysia2024-day-2-find-your-dream-be-unstoppable",
+        "img": "assets/3-Events-Gallery/3-News/09142024-vmalaysia2024-day-2-find-your-dream-be-unstoppable65723833-bb60-4b18-8be0-13b0128eacff.jpg"
+    },
+
+    "others": [
+        {
+        "title": "V-Malaysia 2024 Day 1: The Illusion of Tomorrow by Dato Sri Vijay Eswaran",
+        "articleLink": "https://the-v.net/en/news?id=09152024-v-malaysia-2024-day-1-the-illusion-of-tomorrow-by-dato-sri-vijay-eswaran",
+        "img": "assets/3-Events-Gallery/3-News/09152024-v-malaysia-2024-day-1-the-illusion-of-tomorrow-by-dato-sri-vijay-eswaran76d9a2d4-a526-469d-b8ea-5672ca3eff24.jpg"
+    },
+        {
+        "title": "V-Malaysia 2024 Day 1: A Blueprint for Life’s Lessons by Dato Sri Vijay Eswaran",
+        "articleLink": "https://the-v.net/en/news?id=09152024-v-malaysia-2024-day-1-a-blueprint-for-lifes-lessons-by-dato-sri-vijay-eswaran",
+        "img": "assets/3-Events-Gallery/3-News/09152024-v-malaysia-2024-day-1-a-blueprint-for-lifes-lessons-by-dato-sri-vijay-eswaran38fc895b-a948-44ce-b412-75050b877f4f.jpg"
+    },
+        {
+        "title": "V-Malaysia 2024 Day 1: Transform Your Life Today by Dato Sri Vijay Eswaran",
+        "articleLink": "https://the-v.net/en/news?id=09152024-v-malaysia-2024-day-1-transform-your-life-today-by-dato-sri-vijay-eswaran",
+        "img": "assets/3-Events-Gallery/3-News/09152024-v-malaysia-2024-day-1-transform-your-life-today-by-dato-sri-vijay-eswaranad091e8d-3da3-4fb5-a409-7a391e494680.jpg"
+    },
+        {
         "title": "V-Malaysia 2024 Day 1: Your Journey Begins at V-Convention by Dato Sri Vijay Eswaran",
         "articleLink": "https://the-v.net/en/news?id=09152024-v-malaysia-2024-day-1-your-journey-begins-at-v-convention-by-dato-sri-vijay-eswaran",
         "img": "assets/3-Events-Gallery/3-News/09152024-v-malaysia-2024-day-1-your-journey-begins-at-v-convention-by-dato-sri-vijay-eswaran6c61d30e-f41b-4f33-9e70-520aab0bd81.jpg"
     },
-
-    "others": [
         {
         "title": "#VMalaysia2024 Highlights Day 2: The Unstoppable Magic Continues!",
         "articleLink": "https://the-v.net/en/news?id=09152024-vmalaysia2024-highlights-day-2-the-unstoppable-magic-continues",
