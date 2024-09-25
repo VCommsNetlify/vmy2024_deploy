@@ -33,5 +33,6 @@ export default function Home() {
             <FAQ />
             <Footer />
         </>
+    body: JSON.stringify(body)
     );
 }
