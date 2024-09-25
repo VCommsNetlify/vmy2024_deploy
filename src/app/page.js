@@ -1,3 +1,4 @@
+'use client';
 import Channels from "@/components/section/Channels";
 import EventsUpdates from "@/components/section/EventsUpdates";
 import FAQ from "@/components/section/FAQ";
@@ -8,9 +9,6 @@ import Merch from "@/components/section/Merch";
 import Playlist from "@/components/section/Playlist";
 import Quiz from "@/components/section/Quiz";
 import { Suspense } from "react";
-
-'use client';
-
 
 export default function Home() {
     return (
