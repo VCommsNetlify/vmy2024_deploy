@@ -1,1 +1,1 @@
-command = "pnpm run build"
+command = "CI= npm run build"
