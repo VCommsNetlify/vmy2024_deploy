@@ -1,5 +1,3 @@
-'use client';
-
 import Channels from "@/components/section/Channels";
 import EventsUpdates from "@/components/section/EventsUpdates";
 import FAQ from "@/components/section/FAQ";
