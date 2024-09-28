@@ -25,7 +25,7 @@ i18n
 // Apply RTL styles if the language is Arabic
 i18n.on('languageChanged', (lng) => {
   if (typeof window === "undefined") return;
-s  
+
   if (lng === 'ar') {
     document.documentElement.dir = 'rtl';
     import('@/app/rtl.css'); // Ensure this path is correct
