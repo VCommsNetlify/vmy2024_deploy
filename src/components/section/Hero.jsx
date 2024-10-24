@@ -201,12 +201,15 @@ const Hero = () => {
                                     </div>
                                     <div className="col-12 featured-details-div">
                                         <div id="details-featured-section" className="featured-details">
-                                            <h1 className="feature-title" data-key="feature-title">
+{/*                                             <h1 className="feature-title" data-key="feature-title">
                                                 <strong>RISE AGAIN AND BE UNSTOPPABLE</strong>
-                                            </h1>
+                                            </h1> */}
                                             <p className="featured-description" data-key="featured-description">
-                                                Our next 25 years have only just begun. Come home this September and
-                                                join us for a greater V-MALAYSIA 2024 like you{"'"}ve never seen before.
+                                                Thank you for your heartwarming support for #VMALAYSIA2024. To our thousands of participants from May and September V-Conventions, YOU are incredible, and we are beyond proud to share these unbelievable events with you.
+                                                <br />
+                                                Now, it{"'"}s time for you to show the world what being UNSTOPPABLE is all about.
+                                                <br />
+                                                See you next V-Convention!
                                             </p>
                                             <button className="feature-button" data-key="feature-button">
                                                 <a href="https://vshoppe.vtube.net/Buy">Get your tickets on VShoppe!</a>
